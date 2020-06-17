@@ -20,9 +20,10 @@ body{
     margin-right: 90px;
     border-radius: 3px;
     padding: 5px;
+    transition: all 0.5s;
 }
 .nav a:hover{
-    color: #741006;
+    color: #06677e;
     transition: all 0.5s;
 }
 .home .column {
@@ -58,7 +59,7 @@ h2{
     font-style: italic;
 }
 .heading3{
-    height: 180px;
+    height: 200px;
     background-color: #741006;
 }
 h3{
