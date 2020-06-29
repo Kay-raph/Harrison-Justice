@@ -1,0 +1,58 @@
+.ec {
+  position: relative;
+  .ec__holder {
+    overflow: hidden;
+  }
+  .ec__track {
+    will-change: transform;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+  .ec__item {
+    float: left;
+    overflow: hidden;
+  }
+  .ec__pagination {
+    text-align: center;
+    margin-top: 10px;
+
+    .pagination__dot {
+      width: 8px;
+      height: 8px;
+      background-color: transparent;
+      display: inline-block;
+      border: 1px solid #000;
+      margin: 0 5px;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &--active {
+        background-color: #000;
+      }
+    }
+  }
+  .ec__nav {
+    position: absolute;
+    bottom: 10px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    width: 8px;
+    height: 8px;
+    // transform: translateY(-50%);
+    cursor: pointer;
+    &:before {
+      content: ''
+    }
+    &--prev {
+      transform: rotate(-135deg);
+      left: 1em;
+    }
+    &--next {
+      transform: rotate(45deg);
+      right: 1em;
+    }
+  }
+}

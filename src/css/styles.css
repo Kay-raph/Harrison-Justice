@@ -1,82 +1,156 @@
-body{
+body,
+html{
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .nav{
     top: 0;
-    position: fixed;
+    margin: 0;
     width: 100%;
-    background: transparent;
+    padding: 20px;
+    background-color: white;
+    position: scroll;
+}
+.nav img{
+    position: relative;
+    height: 180px;
+    width: 350px;
+    margin-top: -25px;
+    margin-left: -70px;
 }
 .nav a{
-    font-weight: 500;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin: 20px;
-    color: white;
-    text-decoration: none;
-    box-shadow: 1px 1px 1px 1px;
+    color: black;
+    margin: 50px;
     float: right;
-    margin-right: 90px;
-    border-radius: 3px;
-    padding: 5px;
-    transition: all 0.5s;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
 }
 .nav a:hover{
-    color: #06677e;
-    transition: all 0.5s;
+    color: #37B5FF;
+    text-decoration: none;
 }
-.home .column {
-    float: left;
+.hed{
+    background-image: url("../images/DSC_2570.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }
-.home .left{
-    width: 30%;
-    margin-top: -25px;
-}
-.home .left img{
-    height: 115px;
-    width: 100px;
+.trans p{
+    color: white;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
     position: relative;
-    margin-top: -60px;
+    margin-top: 500px;
+    padding: 10px;
 }
-.heading1{
-    background-color: #06677e;
+.container{
+    margin: 20px;
 }
-h1{
-    color: white;
-    text-align: center;
-    font-size: 3vw;
-    letter-spacing: 5px;
-}
-.heading2{
-    margin-top: -55px;
-    background-color: #e7e6e6;
-}
-h2{
-    color: #606060;
-    text-align: center;
-    letter-spacing: 3px;
-    font-style: italic;
-}
-.heading3{
-    height: 200px;
-    background-color: #741006;
-}
-h3{
-    color: white;
-    text-align: center;
-    letter-spacing: 2px;
-}
-.row{
+.keymile{
     width: 100%;
-    background-image: url("images/kids.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    margin: 0;
 }
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+button{
+    padding: 5px;
+    width: 250px;
+    background-color: #37B5FF;
+    outline: none;
+}
+button h5{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.but p{
+    color: #37B5FF;
+    text-align: center;
+    font-size: 26px;
+}
+/*column-left*/
+.column-left{
+    float: left;
+    width: 50%;
+    margin-left: -60px;
+}
+.column-left h4{
+    color: #37B5FF;
+    font-size: 30px;  
+}
+.column-left p{
+    color: black;
+    font-size: 20px;
+}
+/*column-right*/
+.column-right{
+    float: right;
+    width: 50%;
+    margin-right: -120px;
+}
+.column-right h4{
+    color: #37B5FF;
+    font-size: 30px;  
+}
+.column-right p{
+    color: black;
+    font-size: 20px;
+}
+.about h3,
+.history h3,
+.milestone h3,
+.orphan h3{
+    text-align: center;
+    color: #37B5FF;
+    font-size: 30px;
+}
+.about p,
+.history p,
+.milestone p,
+.orphan p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #37B5FF;
+    position: scroll;
+}
+.footer img{
+    position: relative;
+    height: 180px;
+    width: 350px;
+}
+.footer a{
+    color: white;
+    margin: 50px;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+.footer p1{
+    float: right;
+    color: white;
+    width: 150px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-right: -200px;
+}
+.footer p2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.footer p3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
