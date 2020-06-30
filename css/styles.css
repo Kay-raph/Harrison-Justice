@@ -1,0 +1,398 @@
+body,
+html{
+    margin: 0;
+    overflow: auto;
+    left: 0;
+    right: 0;
+}
+.nav{
+    top: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    position: scroll;
+}
+.nav img{
+    position: relative;
+    height: 180px;
+    width: 350px;
+    margin-top: -25px;
+    margin-left: -20px;
+}
+.nav a{
+    color: black;
+    margin: 50px;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #37B5FF;
+    text-decoration: none;
+}
+.hed{
+    background-image: url("../images/DSC_2570.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.trans p{
+    color: white;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    position: relative;
+    margin-top: 500px;
+    padding: 10px;
+}
+.container{
+    margin: 20px;
+}
+.keymile{
+    width: 100%;
+    margin: 0;
+}
+button{
+    padding: 5px;
+    width: 250px;
+    background-color: #37B5FF;
+    outline: none;
+}
+button h5{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.but p{
+    color: #37B5FF;
+    text-align: center;
+    font-size: 26px;
+}
+/*column-left*/
+.column-left{
+    float: left;
+    width: 50%;
+    margin-left: -50px;
+}
+.column-left h4{
+    color: #37B5FF;
+    font-size: 30px;  
+}
+.column-left p{
+    color: black;
+    font-size: 20px;
+}
+/*column-right*/
+.column-right{
+    float: right;
+    width: 50%;
+    margin-right: -100px;
+}
+.column-right h4{
+    color: #37B5FF;
+    font-size: 30px;  
+}
+.column-right p{
+    color: black;
+    font-size: 20px;
+}
+.about h3,
+.history h3,
+.milestone h3,
+.orphan h3{
+    text-align: center;
+    color: #37B5FF;
+    font-size: 30px;
+}
+.about p,
+.history p,
+.milestone p,
+.orphan p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #37B5FF;
+    position: scroll;
+}
+.footer img{
+    position: relative;
+    height: 180px;
+    width: 350px;
+}
+.footer a{
+    color: white;
+    margin: 40px;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+.footer p1{
+    float: right;
+    color: white;
+    width: 130px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-right: -170px;
+}
+.footer p2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.footer p3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 576px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+.nav{
+    top: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    position: scroll;
+}
+.nav img{
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.nav a{
+    color: black;
+    margin: 5px;
+    float: right;
+    font-size: 8px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.hed{
+    background-image: url("../images/DSC_2570.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.trans p{
+    color: white;
+    font-size: x-small;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    position: relative;
+    margin-top: 110px;
+    padding: 2px;
+}
+.container{
+    margin: 10px;
+}
+button{
+    padding: 2px;
+    width: 100px;
+    background-color: #37B5FF;
+    outline: none;
+}
+button h5{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.but p{
+    color: #37B5FF;
+    text-align: center;
+    font-size: 10px;
+}
+/*column-left*/
+.column-left{
+    float: left;
+    width: 50%;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.column-left h4{
+    color: #37B5FF;
+    font-size: 15px;  
+}
+.column-left p{
+    color: black;
+    font-size: 10px;
+}
+/*column-right*/
+.column-right{
+    float: right;
+    width: 50%;
+    margin-right: -20px;
+    margin-top: 20px;
+}
+.column-right h4{
+    color: #37B5FF;
+    font-size: 15px;  
+}
+.column-right p{
+    color: black;
+    font-size: 10px;
+}
+.about h3,
+.history h3,
+.milestone h3,
+.orphan h3{
+    text-align: center;
+    color: #37B5FF;
+    font-size: 15px;
+}
+.about p,
+.history p,
+.milestone p,
+.orphan p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.footer{
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #37B5FF;
+    position: scroll;
+}
+.footer img{
+    position: relative;
+    height: 50px;
+    width: 70px;
+}
+.footer a{
+    color: white;
+    margin: 3px;
+    float: right;
+    font-size: xx-small;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer p1{
+    float: right;
+    color: white;
+    width: 50px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: -50px;
+    font-size: 5px;
+}
+.footer p2{
+    text-align: center;
+    color: white;
+    font-size: 5px;
+}
+.footer p3{
+    text-align: center;
+    color: white;
+    font-size: 3px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 500px) 
+  and (max-device-width: 576px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .nav{
+        top: 0;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        position: scroll;
+    }
+    .nav img{
+        position: relative;
+        height: 70px;
+        width: 120px;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    .nav a{
+        color: black;
+        margin: 13px;
+        float: right;
+        font-size: 10px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .trans p{
+        color: white;
+        font-size: x-small;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 130px;
+        padding: 2px;
+    }
+    .column-right{
+        float: right;
+        width: 50%;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .column-left{
+        float: left;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .footer{
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+        background-color: #37B5FF;
+        position: scroll;
+    }
+    .footer img{
+        position: relative;
+        height: 70px;
+        width: 120px;
+    }
+    .footer a{
+        color: white;
+        margin: 5px;
+        float: right;
+        font-size: small;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .footer p1{
+        float: right;
+        color: white;
+        width: 70px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-right: -70px;
+        font-size: 7px;
+    }
+    .footer p2{
+        text-align: center;
+        color: white;
+        font-size: 7px;
+    }
+    .footer p3{
+        text-align: center;
+        color: white;
+        font-size: 5px;
+    }
+}

@@ -17,7 +17,7 @@
         <script>document.getElementsByTagName("html")[0].className += " js";</script>
         <link rel="stylesheet" href="assets/css/style.css">
     <link href="css\styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style.css">
     <title>Document</title>
 </head>
 <style>
@@ -49,11 +49,96 @@
       border-radius: 8px;
       margin: 20px;
     }
+    @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 576px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .box {
+      height: 120px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border-radius: 8px;
+      margin: auto;
+    }
+    .box img {
+      width: 100%;
+      height: 100px;
+      display: inline-block;   
+    }
+    .ec .ec__nav
+{
+    position:absolute;
+    bottom:70px;
+    border-top:2px solid #000;
+    border-right:2px solid #000;
+    width:8px;
+    height:8px;
+    cursor:pointer;
+}
+.ec .ec__nav:before
+{
+    content:'';
+}
+.ec .ec__nav--next
+{
+    transform:rotate(-135deg);
+    left:-1.5em;
+}
+.ec .ec__nav--prev
+{
+    transform:rotate(45deg);
+    right:-1.5em;
+}
+
+  }
+  @media only screen 
+  and (min-device-width: 500px) 
+  and (max-device-width: 576px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .box {
+      height: 120px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border-radius: 8px;
+      margin: auto;
+    }
+    .box img {
+      width: 100%;
+      height: 100px;
+      display: inline-block;     
+    }
+    .ec .ec__nav
+{
+    position:absolute;
+    bottom:70px;
+    border-top:2px solid #000;
+    border-right:2px solid #000;
+    width:8px;
+    height:8px;
+    cursor:pointer;
+}
+.ec .ec__nav:before
+{
+    content:'';
+}
+.ec .ec__nav--next
+{
+    transform:rotate(-135deg);
+    left:-1.5em;
+}
+.ec .ec__nav--prev
+{
+    transform:rotate(45deg);
+    right:-1.5em;
+}
+  }
 </style>
 <body>
     <center>
     <div class="nav">
-        <img src="../src/icons/love.png">
+        <img src="icons/love.png">
         <a href="activities.html">ABOUT US </a>
         <a href="budget.html">OUR HISTORY</a>
         <a href="stories.html">ORPHAN STORIES</a>
@@ -65,7 +150,7 @@
         <p>
             Vulnerable children like Brian Wekesa are at a high risk of going
             hungry or falling seriously ill due to the economic hardships brought
-            about by COVID19. With you support, we can continue protecting
+            about by COVID19. With your support, we can continue protecting
             Brian and other orphans at our home.
              
         </p>
@@ -289,7 +374,7 @@ business activities to generate income.
     </div>
 </center>
     <div class="footer">
-        <img src="../src/icons/love1.png">
+        <img src="icons/love1.png">
         <a href="activities.html">ABOUT US </a>
         <p1>Tel: +254711451029
             Email: info@hjch.com
