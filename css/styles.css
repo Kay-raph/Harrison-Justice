@@ -268,6 +268,21 @@ button h5{
     color: black;
     font-size: 10px;
 }
+.row p{
+    font-weight: normal;
+    font-size: xx-small;
+}
+.about{
+    height: 350px;
+}
+.history
+{
+height: 450px;
+}
+.milestone,
+.orphan{
+height: 260px;
+}
 .about h3,
 .history h3,
 .milestone h3,
@@ -373,6 +388,18 @@ button h5{
         margin-left: -10px;
         margin-top: 20px;
     }
+    .row p{
+        font-weight: normal;
+    }
+    .about,
+.history
+{
+    height: 250px;
+}
+.milestone,
+.orphan{
+    height: 230px;
+}
     .footer{
         bottom: 0;
         margin: 0;
