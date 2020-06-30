@@ -4,6 +4,7 @@ html{
     overflow: auto;
     left: 0;
     right: 0;
+    scroll-behavior: smooth;
 }
 .nav{
     top: 0;
