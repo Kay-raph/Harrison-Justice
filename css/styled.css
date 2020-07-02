@@ -127,86 +127,22 @@ h6{
         #prev.disabled {
           opacity: 0.2;
         }
-        @media only screen 
+        /* @media only screen 
         and (min-device-width: 500px) 
         and (max-device-width: 576px) 
-        and (-webkit-min-device-pixel-ratio: 2) { 
+        and (-webkit-min-device-pixel-ratio: 2) {  */
+          @media only screen and (max-width: 500px) {
           #timeline {
-            width: 600px;
-            height: 150px;
-            overflow: hidden;
-            margin: 100px auto;
-            position: relative;
-            background: url('../images/dot.gif') left 45px repeat-x;
-          }
-            #dates {
-              width: 600px;
-              height: 30px;
-              overflow: hidden;
-            }
-              #dates li {
-                list-style: none;
-                float: left;
-                width: 50px;
-                height: 25px;
-                font-size: 14px;
-                text-align: center;
-                background: url('../images/biggerdot.png') center bottom no-repeat;
-              }
-              #ar {
-                line-height: 20px;
-                padding-bottom: 10px;
-              }
-              #dates .selected {
-                    font-size: 18px;
-              }
-              h6{
-                text-align: center;
-                color: #37b5ff;
-                text-shadow: #000 1px 1px 2px;
-                margin-bottom: 5px;
-                  font-size: 16px;
-                }
-                #issues {
-                  width: 600px;
-                  height: 150px;
-                  overflow: hidden;
-                } 
-                  #issues li {
-                    width: 600px;
-                    height: 150px;
-                    list-style: none;
-                    float: left;
-                  }
-                  #issues li h6 {
-                    color: #ffcc00;
-                    font-size: 18px;
-                    margin: 10px 0;
-                    text-shadow: #000 1px 1px 2px;
-                  }
-                  #issues li p {
-                    color: #37b5ff;
-                    font-size: 10px;
-                    text-align: center;
-                    font-weight: normal;
-                    line-height: 22px;
-                  }
-        }
-        @media only screen 
-        and (min-device-width: 320px) 
-        and (max-device-width: 576px) 
-        and (-webkit-min-device-pixel-ratio: 2) { 
-          #timeline {
-            width: 200px;
+            width: 400px;
             height: 150px;
             overflow: hidden;
             margin: 50px auto;
             position: relative;
-            background: url('../images/dot.gif') left 45px repeat-x;
+            background: url('../images/dot.gif') left 20px repeat-x;
           }
             #dates {
-              width: 200px;
-              height: 30px;
+              width: 400px;
+              height: 50px;
               overflow: hidden;
             }
               #dates li {
@@ -228,17 +164,16 @@ h6{
               h6{
                 text-align: center;
                 color: #37b5ff;
-                text-shadow: #000 1px 1px 2px;
                 margin-bottom: 5px;
                   font-size: 16px;
                 }
                 #issues {
-                  width: 200px;
+                  width: 400px;
                   height: 150px;
                   overflow: hidden;
                 } 
                   #issues li {
-                    width: 200px;
+                    width: 400px;
                     height: 150px;
                     list-style: none;
                     float: left;
@@ -246,7 +181,7 @@ h6{
                   #issues li h6 {
                     color: #ffcc00;
                     font-size: 18px;
-                    margin: 20px 0;
+                    margin: 5px 0;
                     text-shadow: #000 1px 1px 2px;
                   }
                   #issues li p {
@@ -254,16 +189,92 @@ h6{
                     font-size: 10px;
                     text-align: center;
                     font-weight: normal;
-                    line-height: 22px;
+                    line-height: 12px;
                   }
                   #next,
                   #prev {
                     position: absolute;
-                    top: 0;
-                    font-size: 30px;
-                    top: 100px;
-                    width: 10px;
-                    height: 18px;
+                    font-size: 10px;
+                    top: 75px;
+                    width: 25px;
+                    height: 36px;
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+                    text-indent: -9999px;
+                    overflow: hidden;
+                  }
+        }
+        /* @media only screen 
+        and (min-device-width: 320px) 
+        and (max-device-width: 576px) 
+        and (-webkit-min-device-pixel-ratio: 2) {  */
+          @media only screen and (max-width: 320px) {
+            #timeline {
+            width: 300px;
+            height: 150px;
+            overflow: hidden;
+            margin: 50px auto;
+            position: relative;
+            background: url('../images/dot.gif') left 20px repeat-x;
+          }
+            #dates {
+              width: 300px;
+              height: 50px;
+              overflow: hidden;
+            }
+              #dates li {
+                list-style: none;
+                float: left;
+                width: 50px;
+                height: 25px;
+                font-size: 14px;
+                text-align: center;
+                background: url('../images/biggerdot.png') center bottom no-repeat;
+              }
+              #ar {
+                line-height: 20px;
+                padding-bottom: 10px;
+              }
+              #dates .selected {
+                    font-size: 18px;
+              }
+              h6{
+                text-align: center;
+                color: #37b5ff;
+                margin-bottom: 5px;
+                  font-size: 16px;
+                }
+                #issues {
+                  width: 300px;
+                  height: 150px;
+                  overflow: hidden;
+                } 
+                  #issues li {
+                    width: 280px;
+                    height: 180px;
+                    list-style: none;
+                    float: left;
+                  }
+                  #issues li h6 {
+                    color: #ffcc00;
+                    font-size: 18px;
+                    margin: 5px 0;
+                    text-shadow: #000 1px 1px 2px;
+                  }
+                  #issues li p {
+                    color: #37b5ff;
+                    font-size: 8px;
+                    text-align: center;
+                    font-weight: normal;
+                    line-height: 10px;
+                  }
+                  #next,
+                  #prev {
+                    position: absolute;
+                    font-size: 8px;
+                    top: 80px;
+                    width: 25px;
+                    height: 36px;
                     background-position: 0 0;
                     background-repeat: no-repeat;
                     text-indent: -9999px;
