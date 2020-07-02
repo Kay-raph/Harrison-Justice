@@ -14,12 +14,21 @@
     <link
         href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amaranth|Anton|Baloo|Baloo+Bhai|Bowlby+One+SC|Calistoga|Concert+One|Fredoka+One|Fugaz+One|IBM+Plex+Mono|Modak|Pangolin|Rubik+Mono+One|Special+Elite|Varela+Round|Viga&display=swap"
         rel="stylesheet">
-        <script>document.getElementsByTagName("html")[0].className += " js";</script>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="css/styled.css" media="screen" />
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+  <script src="js/jquery.timelinr-0.9.7.js"></script>
+        <link rel="stylesheet" href="assets/css/styling.css">
     <link href="css\styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css\style.css">
     <title>Document</title>
 </head>
+<script>
+  $(function(){
+    $().timelinr({
+      arrowKeys: 'true'
+    })
+  });
+</script>
 <style>
   .contain {
       width: 100%;
@@ -232,123 +241,66 @@ business activities to generate income.
 <br>
         <div class="milestone">
             <h3><b>OUR SUCCESS AND KEY MILESTONES</b></h3>
-            <div class="keymile">
-            <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md">
-    
-                <div class="cd-h-timeline__container container">
-                  <div class="cd-h-timeline__dates">
-                    <div class="cd-h-timeline__line" style="color: #37b5ff;">
-                      <ol>
-                        <li><a href="#0" data-date="16/01/2004" class="cd-h-timeline__date cd-h-timeline__date--selected">2004</a></li>
-                        <li><a href="#0" data-date="28/02/2006" class="cd-h-timeline__date">2006</a></li>
-                        <li><a href="#0" data-date="20/04/2008" class="cd-h-timeline__date">2008</a></li>
-                        <li><a href="#0" data-date="20/05/2010" class="cd-h-timeline__date">2010</a></li>
-                        <li><a href="#0" data-date="09/07/2011" class="cd-h-timeline__date">2011</a></li>
-                        <li><a href="#0" data-date="30/08/2014" class="cd-h-timeline__date">2014</a></li>
-                        <li><a href="#0" data-date="15/09/2015" class="cd-h-timeline__date">2015</a></li>
-                        <li><a href="#0" data-date="01/11/2018" class="cd-h-timeline__date">2018</a></li>
-                      </ol>
+            <center>
+            <div class="bodied">
+              <div id="timeline">
+                <ul id="dates">
+                  <li><a id="ar" href="#2004">2004</a></li>
+                  <li><a id="ar"  href="#2006">2006</a></li>
+                  <li><a id="ar" href="#2008">2008</a></li>
+                  <li><a id="ar" href="#2010">2010</a></li>
+                  <li><a id="ar" href="#2011">2011</a></li>
+                  <li><a id="ar" href="#2014">2014</a></li>
+                  <li><a id="ar" href="#2015">2015</a></li>
+                  <li><a id="ar" href="#2018">2018</a></li>
+                </ul>
+                <ul id="issues">
+                  <li id="2004">
+                    <h6>2004</h6>
+                    <p>Registers as an NGO in Kitale, and takes up 7 orphans.</p>
+                  </li>
+                  <li id="2006">
+                    <h6>2006</h6>
+                    <p> Laban travels to Germany for short term work and secures first<br> significant financing of about US$20,000 <br>to purchase land and build a home; expands to about 30 kids.<br>
+                    </p>
+                  </li>
+                  <li id="2008">
+                    <h6>2008</h6>
+                    <p>HJCH supports the first 2 kids to complete high school and begin college.</p>
+                  </li>
+                  <li id="2010">
+                    <h6>2010</h6>
+                    <p>One of the orphaned kids graduates top in high school <br>and gets admission into Duke University in the USA;<br> (HJCH hits 80 children mark)
+                    </p>
+                  </li>
+                  <li id="2011">
+                    <h6>2011</h6>
+                    <p>HJCH relocates into a one acre farm with semi-permanent structure to house kids.</p>
+                  <li id="2014">
+                    <h6>2014</h6>
+                    <p>HJCH hits 150 mark in numbers of children served; <br>more emphasis on education through mentorship<br> given inspiring performance of Duke admittee
+                    </p>
             
-                      <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
-                    </div> <!-- .cd-h-timeline__line -->
-                  </div> <!-- .cd-h-timeline__dates -->
-                    
-                  <ul>
-                    <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
-                    <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
-                  </ul>
-                </div> <!-- .cd-h-timeline__container -->
-            
-                <div class="cd-h-timeline__events">
-                  <ol>
-                    <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2004</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> 
-                          <br>
-                            Registers as an NGO in Kitale, and takes up 7 orphans<br>
-                        </p>
-                      </div>
                     </li>
+                  <li id="2015">
+                    <h6>2015</h6>
+                    <p>HJCH hits 200 mark in numbers of children served.</p>
             
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2006</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> 
-                          <br>
-                            Laban travels to Germany for short term work and secures first<br> significant financing of about US$20,000 to purchase land and build a home; expands to about 30 kids.<br>
-                        </p>
-                      </div>
                     </li>
+                  <li id="2018">
+                    <h6>2018</h6>
+                    <p>HJCH begins to look  to establish a scholarship fund <br>for the education of orphans as well as develop a sustainable income plan.<br>
+                    </p>
             
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2008</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> 
-                          <br><br>
-                            HJCH supports the first 2 kids to complete high school and begin college.
-                            <br>
-                        </p>
-                      </div>
                     </li>
-            
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2010</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> 
-                          <br>
-                            One of the orphaned kids graduates top in high school and gets admission into Duke University in the USA;<br> (HJCH hits 80 children mark)
-                        </p>
-                      </div>
-                    </li>
-            
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2011</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> <br><br>
-                            HJCH relocates into a one acre farm with semi-permanent structure to house kids.
-                        <br></p>
-                      </div>
-                    </li>
-            
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2014</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> <br>
-                            HJCH hits 150 mark in numbers of children served; <br>more emphasis on education through mentorship given inspiring performance of Duke admittee
-                        </p>
-                      </div>
-                    </li>
-            
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2015</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> <br><br>
-                            HJCH hits 200 mark in numbers of children served
-                        <br></p>
-                      </div>
-                    </li>
-            
-                    <li class="cd-h-timeline__event text-component">
-                      <div class="cd-h-timeline__event-content container">
-                        <h2 class="cd-h-timeline__event-title" style="color: #37b5ff;">2018</h2>
-                        <em class="cd-h-timeline__event-date"></em>
-                        <p class="cd-h-timeline__event-description color-contrast-medium"> <br>
-                            HJCH begins to look  to establish a scholarship fund <br>for the education of orphans as well as develop a sustainable income plan.<br>
-                        </p>
-                      </div>
-                    </li>
-                  </ol>
-                </div> <!-- .cd-h-timeline__events -->
-              </section>
+                </ul>
+                <div id="grad_left"></div>
+                <div id="grad_right"></div>
+                <a href="" id="next">+</a>
+                <a href="" id="prev">-</a>
+              </div>
             </div>
+          </center>
         </div>
         <div class="container"><br><br><br>
         <div class="orphan" id="stories"><br><br>

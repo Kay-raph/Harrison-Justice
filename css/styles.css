@@ -17,7 +17,7 @@ html{
 .nav img{
     position: relative;
     height: 180px;
-    width: 350px;
+    width: 300px;
     margin-top: -25px;
     margin-left: -20px;
 }
@@ -34,7 +34,7 @@ html{
     text-decoration: none;
 }
 .hed{
-    background-image: url("../images/DSC_2570.JPG");
+    background-image: url("../images/disc.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,16 +52,12 @@ html{
 .container{
     margin: 30px;
 }
-.keymile{
-    width: 100%;
-    margin: 0;
-    height: 600px;
-}
 button{
     padding: 5px;
     width: 250px;
     background-color: #37B5FF;
     outline: none;
+    border-radius: 2px;
 }
 button h5{
     text-align: center;
@@ -204,7 +200,7 @@ button h5{
     text-decoration: none;
 }
 .hed{
-    background-image: url("../images/DSC_2570.JPG");
+    background-image: url("../images/jpeg.JPG");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

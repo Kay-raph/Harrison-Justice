@@ -276,7 +276,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     // navPrev: null,
     loop: true,
     play: true,
-    playInterval: 8000
+    playInterval: 5000
+    
   };
   window.ElderCarousel = ElderCarousel;
 })();
