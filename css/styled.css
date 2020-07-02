@@ -32,9 +32,9 @@ h6{
 
   #timeline {
     width: 800px;
-    height: 350px;
+    height: 500px;
     overflow: hidden;
-    margin: 100px auto;
+    margin: 120px auto;
     position: relative;
     background: url('../images/dot.gif') left 45px repeat-x;
   }
@@ -62,12 +62,12 @@ h6{
     
     #issues {
       width: 800px;
-      height: 350px;
+      height: 250px;
       overflow: hidden;
     } 
       #issues li {
         width: 800px;
-        height: 350px;
+        height: 250px;
         list-style: none;
         float: left;
       }
@@ -131,7 +131,9 @@ h6{
         and (min-device-width: 500px) 
         and (max-device-width: 576px) 
         and (-webkit-min-device-pixel-ratio: 2) {  */
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 500px) 
+          and (max-device-width: 576px)
+          and (-webkit-min-device-pixel-ratio: 2) {
           #timeline {
             width: 400px;
             height: 150px;
@@ -208,7 +210,9 @@ h6{
         and (min-device-width: 320px) 
         and (max-device-width: 576px) 
         and (-webkit-min-device-pixel-ratio: 2) {  */
-          @media only screen and (max-width: 320px) {
+          @media only screen and (min-width: 320px) 
+          and (max-device-width: 576px) 
+          and (-webkit-min-device-pixel-ratio: 2){
             #timeline {
             width: 300px;
             height: 150px;
