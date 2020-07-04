@@ -147,7 +147,7 @@ a {
             height: 150px;
             overflow: hidden;
             margin: 50px auto;
-            bottom: 80px;
+            bottom: 30px;
             position: relative;
             background: url('../images/dot.gif') left 20px repeat-x;
           }
