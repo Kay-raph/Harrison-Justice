@@ -227,7 +227,7 @@ a {
             width: 300px;
             height: 200px;
             overflow: hidden;
-            margin: 100px auto;
+            margin: 50px auto;
             position: relative;
             background: url('../images/dot.gif') left 20px repeat-x;
           }
@@ -274,7 +274,8 @@ a {
                     margin: 5px 0;
                   }
                   #issues li p {
-                    font-size: 8px;
+                    font-size: 6px;
+                    margin-right: 20px;
                     text-align: center;
                     font-weight: normal;
                     line-height: 10px;
@@ -284,6 +285,7 @@ a {
                     position: absolute;
                     font-size: 8px;
                     top: 80px;
+                    margin-right: 40px;
                     width: 25px;
                     height: 36px;
                     background-position: 0 0;
@@ -292,3 +294,80 @@ a {
                     overflow: hidden;
                   }
         }
+        @media screen 
+        and (max-width : 375px) {
+          .bodied{
+            height: 250px;
+          }
+          #timeline {
+          width: 300px;
+          height: 200px;
+          overflow: hidden;
+          margin: 50px auto;
+          position: relative;
+          background: url('../images/dot.gif') left 20px repeat-x;
+        }
+          #dates {
+            width: 300px;
+            height: 50px;
+            overflow: hidden;
+          }
+            #dates li {
+              list-style: none;
+              float: left;
+              width: 50px;
+              height: 25px;
+              font-size: 14px;
+              text-align: center;
+              background: url('../images/biggerdot.png') center bottom no-repeat;
+            }
+            #ar {
+              line-height: 20px;
+              padding-bottom: 10px;
+            }
+            #dates .selected {
+                  font-size: 18px;
+            }
+            h6{
+              text-align: center;
+              margin-bottom: 5px;
+                font-size: 16px;
+              }
+              #issues {
+                width: 300px;
+                height: 150px;
+                overflow: hidden;
+              } 
+                #issues li {
+                  width: 280px;
+                  height: 180px;
+                  list-style: none;
+                  float: left;
+                }
+                #issues li h6 {
+                  color: #000000;
+                  font-size: 18px;
+                  margin: 5px 0;
+                }
+                #issues li p {
+                  font-size: 8px;
+                  margin-right: 5px;
+                  text-align: center;
+                  font-weight: normal;
+                  line-height: 10px;
+                }
+                #next,
+                #prev {
+                  position: absolute;
+                  font-size: 8px;
+                  margin-right: 20px;
+                  top: 80px;
+                  width: 25px;
+                  height: 36px;
+                  background-position: 0 0;
+                  background-repeat: no-repeat;
+                  text-indent: -9999px;
+                  overflow: hidden;
+                }
+      }
+        

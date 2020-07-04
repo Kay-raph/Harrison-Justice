@@ -179,174 +179,170 @@ html{
     color: white;
     font-size: 15px;
 }
-@media only screen 
-  and (min-device-width: 320px) 
+@media (min-width: 320px) and (max-width: 767px) 
   { 
 
-.nav{
-    top: 0;
-    margin: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: white;
-    position: scroll;
-}
-.nav img{
-    position: relative;
-    height: 50px;
-    width: 70px;
-    margin-top: -10px;
-    margin-left: -10px;
-}
-.nav a{
-    color: black;
-    margin: 5px;
-    float: right;
-    font-size: 7px;
-    font-weight: normal;
-    text-decoration: none;
-}
-.hed{
-    background-image: url("../images/jpeg.JPG");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 220px;
-}
-.trans p{
-    color: white;
-    font-size: x-small;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    position: relative;
-    margin-top: 110px;
-    padding: 2px;
-}
-.container{
-    margin: 10px;
-}
-.button{
-    padding: 2px;
-    width: 100px;
-    background-color: #37B5FF;
-    outline: none;
-}
-.button h5{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-}
-.but p{
-    color: #37B5FF;
-    text-align: center;
-    font-size: 10px;
-}
-/*column-left*/
-.column-left{
-    float: left;
-    width: 50%;
-    margin-left: -10px;
-    margin-top: 20px;
-}
-.column-left h4{
-    color: #37B5FF;
-    font-size: 15px;  
-}
-.column-left p{
-    color: black;
-    font-size: 10px;
-}
-/*column-right*/
-.column-right{
-    float: right;
-    width: 50%;
-    margin-right: -20px;
-    margin-top: 20px;
-}
-.column-right h4{
-    color: #37B5FF;
-    font-size: 15px;  
-}
-.column-right p{
-    color: black;
-    font-size: 10px;
-}
-.row p{
-    font-weight: normal;
-    font-size: 10px;
-}
-.about{
-    margin-bottom: 50px;
-}
-.history
-{
-    margin-bottom: 110px;
-}
-.milestone,
-.orphan{
-   
-}
-.about h3,
-.history h3,
-.milestone h3,
-.orphan h3{
-    text-align: center;
-    color: #37B5FF;
-    font-size: 10px;
-}
-.about p,
-.history p,
-.milestone p,
-.orphan p{
-    font-size: 10px;
-    font-weight: normal;
-}
-.footer{
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    padding: 5px;
-    background-color: #37B5FF;
-    position: scroll;
-}
-.footer img{
-    position: relative;
-    height: 30px;
-    width: 50px;
-    margin-left: -10px;
-}
-.footer a{
-    color: white;
-    margin: 2px;
-    float: right;
-    font-size: 5px;
-    font-weight: normal;
-    text-decoration: none;
-}
-.footer p1{
-    float: right;
-    color: white;
-    width: 50px;
-    text-align: justify;
-    margin-top: 20px;
-    margin-right: -53px;
-    font-size: 5px;
-    font-weight: normal;
-}
-.footer p2{
-    text-align: center;
-    color: white;
-    font-size: 5px;
-    font-weight: normal;
-}
-.footer p3{
-    text-align: center;
-    color: white;
-    font-size: 4px;
-    font-weight: normal;
-}
-}
-@media only screen 
+    .nav{
+        top: 0;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        position: scroll;
+        height: 55px;
+    }
+    .nav img{
+        position: relative;
+        height: 60px;
+        width: 80px;
+        margin-top: -25px;
+        margin-left: -15px;
+    }
+    .nav a{
+        color: black;
+        margin: 6px;
+        float: right;
+        font-size: 5px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .hed{
+        background-image: url("../images/jpeg.JPG");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 220px;
+    }
+    .trans p{
+        color: white;
+        font-size: x-small;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 100px;
+        padding: 2px;
+    }
+    .container{
+        margin: 10px;
+    }
+    .button{
+        padding: 2px;
+        width: 100px;
+        background-color: #37B5FF;
+        outline: none;
+    }
+    .button h5{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .but p{
+        color: #37B5FF;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*column-left*/
+    .column-left{
+        float: left;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .column-left h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-left p{
+        color: black;
+        font-size: 10px;
+    }
+    /*column-right*/
+    .column-right{
+        float: right;
+        width: 50%;
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    .column-right h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-right p{
+        color: black;
+        font-size: 10px;
+    }
+    .row p{
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+    .history
+    {
+        margin-bottom: 110px;
+    }
+    .about h3,
+    .history h3,
+    .milestone h3,
+    .orphan h3{
+        text-align: center;
+        color: #37B5FF;
+        font-size: 10px;
+    }
+    .about p,
+    .history p,
+    .milestone p,
+    .orphan p{
+        font-size: 10px;
+        font-weight: normal;
+    }
+        .footer{
+            bottom: 0;
+            margin: 0;
+            width: 100%;
+            padding: 5px;
+            background-color: #37B5FF;
+            position: scroll;
+        }
+        .footer img{
+            position: relative;
+            height: 70px;
+            width: 90px;
+            margin-left: -5px;
+        }
+        .footer a{
+            color: white;
+            margin: 9px;
+            float: right;
+            font-size: 8px;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .footer p1{
+            float: right;
+            color: white;
+            width: 50px;
+            text-align: justify;
+            margin-top: 30px;
+            margin-right: -60px;
+            font-size: 5px;
+            font-weight: normal;
+        }
+        .footer p2{
+            text-align: center;
+            color: white;
+            font-size: 5px;
+            font-weight: normal;
+        }
+        .footer p3{
+            text-align: center;
+            color: white;
+            font-size: 3px;
+            font-weight: normal;
+        }
+    }
+@media screen 
   and (max-width: 500px) 
    { 
     .nav{
@@ -447,7 +443,7 @@ html{
 }
 }
 /* IPHONE 6.7.8 */
-@media only screen 
+@media screen 
 and (max-width : 375px) 
    {
     .nav{
@@ -462,22 +458,108 @@ and (max-width : 375px)
     .nav img{
         position: relative;
         height: 70px;
-        width: 120px;
+        width: 90px;
         margin-top: -25px;
-        margin-left: -15px;
+        margin-left: -20px;
     }
     .nav a{
         color: black;
-        margin: 6px;
+        margin: 3px;
         float: right;
         font-size: 8px;
         font-weight: normal;
         text-decoration: none;
     }
-    .about,
+    .hed{
+        background-image: url("../images/jpeg.JPG");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 220px;
+    }
+    .trans p{
+        color: white;
+        font-size: x-small;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 130px;
+        padding: 2px;
+    }
+    .container{
+        margin: 10px;
+    }
+    .button{
+        padding: 2px;
+        width: 100px;
+        background-color: #37B5FF;
+        outline: none;
+    }
+    .button h5{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .but p{
+        color: #37B5FF;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*column-left*/
+    .column-left{
+        float: left;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .column-left h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-left p{
+        color: black;
+        font-size: 10px;
+    }
+    /*column-right*/
+    .column-right{
+        float: right;
+        width: 50%;
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    .column-right h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-right p{
+        color: black;
+        font-size: 10px;
+    }
+    .row p{
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
     .history
     {
-        height: 300px;
+        margin-bottom: 110px;
+    }
+    .about h3,
+    .history h3,
+    .milestone h3,
+    .orphan h3{
+        text-align: center;
+        color: #37B5FF;
+        font-size: 10px;
+    }
+    .about p,
+    .history p,
+    .milestone p,
+    .orphan p{
+        font-size: 10px;
+        font-weight: normal;
     }
         .footer{
             bottom: 0;
@@ -495,32 +577,32 @@ and (max-width : 375px)
         }
         .footer a{
             color: white;
-            margin: 9px;
+            margin: 8px;
             float: right;
-            font-size: 8px;
+            font-size: 6px;
             font-weight: normal;
             text-decoration: none;
         }
         .footer p1{
             float: right;
             color: white;
-            width: 70px;
+            width: 50px;
             text-align: justify;
             margin-top: 30px;
-            margin-right: -60px;
-            font-size: 7px;
+            margin-right: -50px;
+            font-size: 5px;
             font-weight: normal;
         }
         .footer p2{
             text-align: center;
             color: white;
-            font-size: 7px;
+            font-size: 5px;
             font-weight: normal;
         }
         .footer p3{
             text-align: center;
             color: white;
-            font-size: 5px;
+            font-size: 3px;
             font-weight: normal;
         }
     } 
