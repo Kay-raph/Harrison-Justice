@@ -454,23 +454,23 @@ and (max-width : 375px)
         top: 0;
         margin: 0;
         width: 100%;
-        padding: 15px;
+        padding: 20px;
         background-color: white;
         position: scroll;
         height: 55px;
     }
     .nav img{
         position: relative;
-        height: 70px;
-        width: 90px;
-        margin-top: -25px;
-        margin-left: -20px;
+        height: 40px;
+        width: 80px;
+        margin-top: -30px;
+        margin-left: -25px;
     }
     .nav a{
         color: black;
         margin: 3px;
         float: right;
-        font-size: 8px;
+        font-size: 7px;
         font-weight: normal;
         text-decoration: none;
     }
@@ -581,9 +581,9 @@ and (max-width : 375px)
         }
         .footer a{
             color: white;
-            margin: 8px;
+            margin: 6px;
             float: right;
-            font-size: 6px;
+            font-size: 7px;
             font-weight: normal;
             text-decoration: none;
         }
@@ -592,21 +592,21 @@ and (max-width : 375px)
             color: white;
             width: 50px;
             text-align: justify;
-            margin-top: 30px;
+            margin-top: 20px;
             margin-right: -50px;
-            font-size: 5px;
+            font-size: 5.5px;
             font-weight: normal;
         }
         .footer p2{
             text-align: center;
             color: white;
-            font-size: 5px;
+            font-size: 6px;
             font-weight: normal;
         }
         .footer p3{
             text-align: center;
             color: white;
-            font-size: 3px;
+            font-size: 5.5px;
             font-weight: normal;
         }
     } 
