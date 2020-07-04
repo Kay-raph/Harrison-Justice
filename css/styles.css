@@ -606,3 +606,48 @@ and (max-width : 375px)
             font-weight: normal;
         }
     } 
+    /*iphone 6/7/8 plus*/
+    @media screen 
+and (max-width : 414px) 
+   {
+    .nav{
+        top: 0;
+        margin: 0;
+        width: 100%;
+        padding: 15px;
+        background-color: white;
+        position: scroll;
+        height: 55px;
+    }
+    .nav img{
+        position: relative;
+        height: 70px;
+        width: 90px;
+        margin-top: -25px;
+        margin-left: -20px;
+    }
+    .nav a{
+        color: black;
+        margin: 3px;
+        float: right;
+        font-size: 8px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .hed{
+        background-image: url("../images/jpeg.JPG");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 220px;
+    }
+    .trans p{
+        color: white;
+        font-size: x-small;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 130px;
+        padding: 2px;
+    }   
+   }
