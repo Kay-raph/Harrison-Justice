@@ -37,7 +37,7 @@ jQuery.fn.timelinr = function(options){
       // setting variables... many of them
       var howManyDates = $(settings.datesDiv+' li').length;
       var howManyIssues = $(settings.issuesDiv+' li').length;
-      var currentDate = $(settings.datesDiv).find('ar.'+settings.datesSelectedClass);
+      var currentDate = $(settings.datesDiv).find('a.'+settings.datesSelectedClass);
       var currentIssue = $(settings.issuesDiv).find('li.'+settings.issuesSelectedClass);
       var widthContainer = $(settings.containerDiv).width();
       var heightContainer = $(settings.containerDiv).height();
@@ -98,7 +98,7 @@ jQuery.fn.timelinr = function(options){
           }
         }
         // now moving the dates
-        $(settings.datesDiv+' #ar').removeClass(settings.datesSelectedClass);
+        $(settings.datesDiv+' a').removeClass(settings.datesSelectedClass);
         $(this).addClass(settings.datesSelectedClass);
         if(settings.orientation == 'horizontal') {
           $(settings.datesDiv).animate({'marginLeft':defaultPositionDates-(widthDate*currentIndex)},{queue:false, duration:'settings.datesSpeed'});
@@ -122,7 +122,7 @@ jQuery.fn.timelinr = function(options){
           } else {
             if (!$(settings.issuesDiv).is(':animated')) {
               // bugixed from 0.9.52: now the dates gets centered when there's too much dates.
-              $(settings.datesDiv+' li').eq(currentIndex+1).find('#ar').trigger('click');
+              $(settings.datesDiv+' li').eq(currentIndex+1).find('a').trigger('click');
             }
           }
         } else if(settings.orientation == 'vertical') {
@@ -136,7 +136,7 @@ jQuery.fn.timelinr = function(options){
           } else {
             if (!$(settings.issuesDiv).is(':animated')) {
               // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $(settings.datesDiv+' li').eq(currentIndex+1).find('#ar').trigger('click');
+              $(settings.datesDiv+' li').eq(currentIndex+1).find('a').trigger('click');
             }
           }
         }
@@ -180,7 +180,7 @@ jQuery.fn.timelinr = function(options){
           } else {
             if (!$(settings.issuesDiv).is(':animated')) {
               // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $(settings.datesDiv+' li').eq(currentIndex-1).find('#ar').trigger('click');
+              $(settings.datesDiv+' li').eq(currentIndex-1).find('a').trigger('click');
             }
           }
         } else if(settings.orientation == 'vertical') {
@@ -194,7 +194,7 @@ jQuery.fn.timelinr = function(options){
           } else {
             if (!$(settings.issuesDiv).is(':animated')) {
               // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
-              $(settings.datesDiv+' li').eq(currentIndex-1).find('#ar').trigger('click');
+              $(settings.datesDiv+' li').eq(currentIndex-1).find('a').trigger('click');
             }
           }
         }
