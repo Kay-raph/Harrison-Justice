@@ -136,7 +136,7 @@ a {
         and (min-device-width: 500px) 
         and (max-device-width: 576px) 
         and (-webkit-min-device-pixel-ratio: 2) {  */
-          @media only screen and (max-width: 500px) 
+          @media only screen and (min-device-width: 500px) 
           and (max-device-width: 576px)
           and (-webkit-min-device-pixel-ratio: 2) {
             .bodied{
