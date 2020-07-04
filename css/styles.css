@@ -276,11 +276,14 @@ html{
         font-size: 10px;
     }
     .about{
-        margin-bottom: 50px;
+        margin-top: -50px;
     }
     .history
     {
-        margin-bottom: 110px;
+        margin-top: 110px;
+    }
+    .milestone{
+        margin-top: 160px;
     }
     .about h3,
     .history h3,
@@ -395,8 +398,9 @@ html{
     .about,
 .history
 {
-    height: 250px;
+    height: 150px;
 }
+
 .footer{
     bottom: 0;
     margin: 0;
