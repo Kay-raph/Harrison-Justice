@@ -5,6 +5,9 @@ html{
     left: 0;
     right: 0;
     scroll-behavior: smooth;
+    font-family: ff-tisa-sans-web-pro, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 .nav{
     top: 0;
