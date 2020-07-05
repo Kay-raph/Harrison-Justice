@@ -138,115 +138,12 @@ a {
         #prev.disabled {
           opacity: 0.2;
         }
-        /* @media only screen 
-        and (min-device-width: 500px) 
-        and (max-device-width: 576px) 
-        and (-webkit-min-device-pixel-ratio: 2) {  */
-          @media only screen and (min-device-width: 500px) 
-          and (max-device-width: 576px)
-          and (-webkit-min-device-pixel-ratio: 2) {
-            .bodied{
-              height: 250px;
-            }
-          #timeline {
-            width: 400px;
-            height: 150px;
-            overflow: hidden;
-            margin: 50px auto;
-            bottom: 30px;
-            position: relative;
-            background: url('../images/dot.gif') left 20px repeat-x;
-          }
-            #dates {
-              width: 400px;
-              height: 50px;
-              overflow: hidden;
-            }
-              #dates li {
-                list-style: none;
-                float: left;
-                width: 50px;
-                height: 25px;
-                font-size: 14px;
-                text-align: center;
-                background: url('../images/biggerdot.png') center bottom no-repeat;
-              }
-              #ar {
-                line-height: 20px;
-                padding-bottom: 10px;
-              }
-              #dates .selected {
-                    font-size: 18px;
-              }
-              h6{
-                text-align: center;
-                margin-bottom: 5px;
-                  font-size: 16px;
-                }
-                #issues {
-                  width: 450px;
-                  height: 150px;
-                  overflow: hidden;
-                  text-align: center;
-                } 
-                  #issues li {
-                    width: 450px;
-                    height: 150px;
-                    list-style: none;
-                  }
-                  #issues li h6 {
-                    color: #000000;
-                    font-size: 18px;
-                    margin-left: 20px;
-                  }
-                  #issues li p {
-                    font-size: 10px;
-                    text-align: justify;
-                    font-weight: normal;
-                    line-height: 14px;
-                    margin-left: 20px;
-                    -webkit-transition: all 2s ease-in-out;
-                    transition: all 2s ease-in-out;
-                  }
-                  #issues li.selected img {
-                    -webkit-transform: scale(1.05,1.05);
-                    transform: scale(1.05,1.05);
-                  }
-                  #issues li img {
-                    width: 90px;
-                    height: 90px;
-                    float: left;
-                    margin: 70px 10px 10px 80px;
-                    background: transparent;
-                    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
-                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
-                    zoom: 0.5;
-                    -webkit-transition: all 2s ease-in-out;
-                    transition: all 2s ease-in-out;
-                    -webkit-transform: scale(0.05,0.05);
-                    transform: scale(0.05,0.05);
-                  }
-                  #next,
-                  #prev {
-                    position: absolute;
-                    font-size: 10px;
-                    top: 70px;
-                    width: 45px;
-                    height: 20px;
-                    background-position: 0 0;
-                    background-repeat: no-repeat;
-                    text-indent: -9999px;
-                    overflow: hidden;
-                  }
-        }
-        /* @media only screen 
+        /*Iphone 4 & 4s and Android*/
+        @media only screen 
         and (min-device-width: 320px) 
-        and (max-device-width: 576px) 
-        and (-webkit-min-device-pixel-ratio: 2) {  */
-          @media only screen and (min-width: 320px) 
-          and (max-device-width: 576px) 
-          and (-webkit-min-device-pixel-ratio: 2){
-            .bodied{
+        and (max-device-width: 576px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+          .bodied{
               height: 250px;
             }
             #timeline {
@@ -340,8 +237,10 @@ a {
                     overflow: hidden;
                   }
         }
-        @media screen 
-        and (max-width : 375px) {
+        @media only screen 
+        and (min-device-width: 375px) 
+        and (max-device-width: 667px) 
+        and (-webkit-min-device-pixel-ratio: 2)  {
           .bodied{
             height: 250px;
           }
@@ -404,6 +303,24 @@ a {
                   -webkit-transition: all 2s ease-in-out;
                     transition: all 2s ease-in-out;
                 }
+                #issues li.selected img {
+                  -webkit-transform: scale(1.05,1.05);
+                  transform: scale(1.05,1.05);
+                }
+                #issues li img {
+                  width: 80px;
+                  height: 80px;
+                  float: left;
+                  margin: 60px 10px 10px 80px;
+                  background: transparent;
+                  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+                  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+                  zoom: 0.5;
+                  -webkit-transition: all 2s ease-in-out;
+                  transition: all 2s ease-in-out;
+                  -webkit-transform: scale(0.05,0.05);
+                  transform: scale(0.05,0.05);
+                }
                 #next,
                 #prev {
                   position: absolute;
@@ -418,4 +335,103 @@ a {
                   overflow: hidden;
                 }
       }
-        
+    /* ----------- Iphone 6/7/8 plus ----------- */
+@media screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 2)
+{ 
+  .bodied{
+    height: 250px;
+  }
+  #timeline {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 50px auto;
+  position: relative;
+  background: url('../images/dot.gif') left 20px repeat-x;
+}
+  #dates {
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+  }
+    #dates li {
+      list-style: none;
+      float: left;
+      width: 50px;
+      height: 25px;
+      font-size: 14px;
+      text-align: center;
+      background: url('../images/biggerdot.png') center bottom no-repeat;
+    }
+    #ar {
+      line-height: 20px;
+      padding-bottom: 10px;
+    }
+    #dates .selected {
+          font-size: 18px;
+    }
+    h6{
+      text-align: center;
+      margin-bottom: 5px;
+        font-size: 16px;
+      }
+      #issues {
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+      } 
+        #issues li {
+          width: 280px;
+          height: 180px;
+          list-style: none;
+          float: left;
+        }
+        #issues li h6 {
+          color: #000000;
+          font-size: 18px;
+          margin: 5px 0;
+        }
+        #issues li p {
+          font-size: 8px;
+          margin-right: 5px;
+          text-align: center;
+          font-weight: normal;
+          line-height: 10px;
+          -webkit-transition: all 2s ease-in-out;
+            transition: all 2s ease-in-out;
+        }
+        #issues li.selected img {
+          -webkit-transform: scale(1.05,1.05);
+          transform: scale(1.05,1.05);
+        }
+        #issues li img {
+          width: 80px;
+          height: 80px;
+          float: left;
+          margin: 60px 10px 10px 80px;
+          background: transparent;
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+          zoom: 0.5;
+          -webkit-transition: all 2s ease-in-out;
+          transition: all 2s ease-in-out;
+          -webkit-transform: scale(0.05,0.05);
+          transform: scale(0.05,0.05);
+        }
+        #next,
+        #prev {
+          position: absolute;
+          font-size: 8px;
+          margin-right: 20px;
+          top: 80px;
+          width: 25px;
+          height: 36px;
+          background-position: 0 0;
+          background-repeat: no-repeat;
+          text-indent: -9999px;
+          overflow: hidden;
+        }
+}

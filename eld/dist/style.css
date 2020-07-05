@@ -104,97 +104,15 @@
     transform:rotate(45deg);
     right:-2em;
 }
-@media screen 
-  and (max-width: 500px) 
+   /* IPHONE 5/5c and android */
+   @media only screen 
+   and (min-device-width: 320px) 
+   and (max-device-width: 576px)
+   and (-webkit-min-device-pixel-ratio: 2) 
    { 
     .contained {
         width: 90%;
-        height: 900px;
-        margin: 0 auto;
-      }
-     
-      #picha p{
-          text-align: justify;
-          width: 200px;
-          height: 350px;
-          font-size: 9.5px;
-          color: white;
-          padding: 10px;
-          margin: auto;
-          margin-top: -200px;
-          margin-left: 50px;
-      }
-       #picha img {
-        width: 100%;
-        height: 220px;
-        display: block;
-        margin: auto;
-        margin-bottom: 250px;
-      }
-      .box {
-        font-family: Arial, Helvetica, sans-serif;
-        height: 400px;
-        width: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 8px;
-      }
-      
-}
-@media screen 
-  and (min-width: 375px) 
-   { 
-    .contained {
-        width: 90%;
-        height: 700px;
-        margin: 0 auto;
-      }
-     
-      #picha p{
-          text-align: justify;
-          width: 150px;
-          height: 350px;
-          font-size: 8px;
-          color: white;
-          padding: 10px;
-          margin: auto;
-          margin-top: -200px;
-          margin-left: 50px;
-      }
-       #picha img {
-        width: 100%;
-        height: 250px;
-        display: block;
-        margin: auto;
-      }
-      .box {
-        font-family: Arial, Helvetica, sans-serif;
-        height: 250px;
-        width: 160px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 8px;
-        margin-bottom: 250px;
-      }
-      .ec .ec__nav
-{
-    position:absolute;
-    top:300px;
-    border-top:8px solid #37b5ff;
-    border-right:8px solid #37b5ff;
-    width:22px;
-    height:22px;
-    cursor:pointer;
-}
-   }
-@media screen 
-  and (max-width: 320px) 
-   { 
-    .contained {
-        width: 90%;
-        height: 900px;
+        height: 850px;
         margin: 0 auto;
       }
      
@@ -237,57 +155,62 @@
     cursor:pointer;
 }
 }
-@media screen 
-  and (min-width: 576px) 
-   {
+
+/* IPHONE 6/7/8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+   { 
     .contained {
-      width: 90%;
-      height: 600px;
-      margin: 0 auto;
-    }
-   
-    #picha p{
-        text-align: justify;
-        width: 250px;
-        height:150px;
-        font-size: 9px;
-        color: white;
-        padding: 10px;
+        width: 90%;
+        height: 700px;
+        margin: 0 auto;
+      }
+     
+      #picha p{
+          text-align: justify;
+          width: 160px;
+          height: 350px;
+          font-size: 8px;
+          color: white;
+          padding: 10px;
+          margin: auto;
+          margin-top: -200px;
+          margin-left: 50px;
+      }
+       #picha img {
+        width: 100%;
+        height: 250px;
+        display: block;
         margin: auto;
-        margin-top: -300px;
-        margin-left: 50px;
-    }
-     #picha img {
-      width: 100%;
-      height: 250px;
-      display: block;
-      margin: auto;
-      /* margin-bottom: 250px; */
-    }
-    .box {
-      font-family: Arial, Helvetica, sans-serif;
-      height: 200px;
-      width: 250px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 8px;
-      margin-bottom: 350px;
-    }
-    .ec .ec__nav
+      }
+      .box {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 250px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        margin-bottom: 250px;
+      }
+      .ec .ec__nav
 {
-  position:absolute;
-  top:300px;
-  border-top:8px solid #37b5ff;
-  border-right:8px solid #37b5ff;
-  width:22px;
-  height:22px;
-  cursor:pointer;
-}
+    position:absolute;
+    top:300px;
+    border-top:8px solid #37b5ff;
+    border-right:8px solid #37b5ff;
+    width:22px;
+    height:22px;
+    cursor:pointer;
+ }
 }
    /*iphone 6/7/8 plus*/
-   @media screen 
-   and (min-width : 414px) 
+   @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)  
       {
         .contained {
           width: 90%;
@@ -334,3 +257,10 @@
       cursor:pointer;
     }
     }
+    /* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
+}

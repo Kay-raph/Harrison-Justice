@@ -46,7 +46,7 @@ html{
     background-color: rgba(0, 0, 0, 0.5);
     width: 70%;
     position: relative;
-    margin-top: 500px;
+    margin-top: 512px;
     padding: 10px;
 }
 .container{
@@ -125,10 +125,6 @@ html{
     color: #37B5FF;
     font-size: 30px;
 }
-.milestone{
-    margin: 0;
-    padding: 0;
-}
 .about p,
 .history p,
 .milestone p,
@@ -148,6 +144,7 @@ html{
     position: relative;
     height: 180px;
     width: 300px;
+    margin-left: -20px;
 }
 .footer a{
     color: white;
@@ -179,30 +176,33 @@ html{
     color: white;
     font-size: 15px;
 }
-@media (min-width: 320px) and (max-width: 767px) 
-  { 
-
+/* ANDROID */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 576px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+   {
     .nav{
         top: 0;
         margin: 0;
         width: 100%;
-        padding: 10px;
+        padding: 20px;
         background-color: white;
         position: scroll;
         height: 55px;
     }
     .nav img{
         position: relative;
-        height: 60px;
+        height: 40px;
         width: 80px;
-        margin-top: -25px;
-        margin-left: -15px;
+        margin-top: -10px;
+        margin-left: -23px;
     }
     .nav a{
         color: black;
-        margin: 6px;
+        margin: 5px;
         float: right;
-        font-size: 5px;
+        font-size: 7px;
         font-weight: normal;
         text-decoration: none;
     }
@@ -215,11 +215,11 @@ html{
     }
     .trans p{
         color: white;
-        font-size: x-small;
+        font-size: 11px;
         background-color: rgba(0, 0, 0, 0.5);
         width: 80%;
         position: relative;
-        margin-top: 100px;
+        margin-top: 126px;
         padding: 2px;
     }
     .container{
@@ -255,6 +255,7 @@ html{
     .column-left p{
         color: black;
         font-size: 10px;
+        text-align: justify;
     }
     /*column-right*/
     .column-right{
@@ -270,20 +271,18 @@ html{
     .column-right p{
         color: black;
         font-size: 10px;
+        text-align: justify;
     }
     .row p{
         font-weight: normal;
         font-size: 10px;
     }
     .about{
-        margin-top: -50px;
+        height: 300px;
     }
     .history
     {
-        margin-top: 110px;
-    }
-    .milestone{
-        margin-top: 160px;
+        height: 380px;
     }
     .about h3,
     .history h3,
@@ -310,15 +309,15 @@ html{
         }
         .footer img{
             position: relative;
-            height: 70px;
-            width: 90px;
-            margin-left: -5px;
+            height: 50px;
+            width: 100px;
+            margin-left: -10px;
         }
         .footer a{
             color: white;
-            margin: 9px;
+            margin: 5px;
             float: right;
-            font-size: 8px;
+            font-size: 7px;
             font-weight: normal;
             text-decoration: none;
         }
@@ -327,9 +326,9 @@ html{
             color: white;
             width: 50px;
             text-align: justify;
-            margin-top: 30px;
-            margin-right: -60px;
-            font-size: 5px;
+            margin-top: 15px;
+            margin-right: -50px;
+            font-size: 5.5px;
             font-weight: normal;
         }
         .footer p2{
@@ -341,114 +340,15 @@ html{
         .footer p3{
             text-align: center;
             color: white;
-            font-size: 3px;
+            font-size: 4.5px;
             font-weight: normal;
         }
-    }
-@media screen 
-  and (max-width: 500px) 
-   { 
-    .nav{
-        top: 0;
-        margin: 0;
-        width: 100%;
-        padding: 10px;
-        background-color: white;
-        position: scroll;
-    }
-    .nav img{
-        position: relative;
-        height: 75px;
-        width: 120px;
-        margin-top: -20px;
-        margin-left: -50px;
-    }
-    .nav a{
-        color: black;
-        margin: 10px;
-        float: right;
-        font-size: 10px;
-        font-weight: normal;
-        text-decoration: none;
-    }
-    .trans p{
-        color: white;
-        font-size: small;
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 80%;
-        position: relative;
-        margin-top: 130px;
-        padding: 2px;
-    }
-    .column-right{
-        float: right;
-        width: 50%;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .column-left{
-        float: left;
-        width: 50%;
-        margin-left: -10px;
-        margin-top: 20px;
-    }
-    .row p{
-        font-weight: normal;
-    }
-    .about,
-.history
-{
-    height: 150px;
-}
-
-.footer{
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    padding: 5px;
-    background-color: #37B5FF;
-    position: scroll;
-}
-.footer img{
-    position: relative;
-    height: 50px;
-    width: 100px;
-    margin-left: -5px;
-}
-.footer a{
-    color: white;
-    margin: 3px;
-    float: right;
-    font-size: 10px;
-    font-weight: normal;
-    text-decoration: none;
-}
-.footer p1{
-    float: right;
-    color: white;
-    width: 50px;
-    text-align: justify;
-    margin-top: 20px;
-    margin-right: -52px;
-    font-size: 5px;
-    font-weight: normal;
-}
-.footer p2{
-    text-align: center;
-    color: white;
-    font-size: 5x;
-    font-weight: normal;
-}
-.footer p3{
-    text-align: center;
-    color: white;
-    font-size: 3px;
-    font-weight: normal;
-}
-}
+    } 
 /* IPHONE 6.7.8 */
-@media screen 
-and (min-width : 375px) 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
    {
     .nav{
         top: 0;
@@ -544,11 +444,11 @@ and (min-width : 375px)
         font-size: 10px;
     }
     .about{
-        height: 120px;
+        height: 230px;
     }
     .history
     {
-        height: 120px;
+        height: 280px;
     }
     .about h3,
     .history h3,
@@ -600,41 +500,43 @@ and (min-width : 375px)
         .footer p2{
             text-align: center;
             color: white;
-            font-size: 6px;
+            font-size: 5.5px;
             font-weight: normal;
         }
         .footer p3{
             text-align: center;
             color: white;
-            font-size: 5.5px;
+            font-size: 4.5px;
             font-weight: normal;
         }
     } 
-    /*iphone 6/7/8 landscape*/
-    @media screen 
-and (min-width : 667px) 
+    /*iphone 6/7/8 plus*/
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) 
    {
     .nav{
         top: 0;
         margin: 0;
         width: 100%;
-        padding: 20px;
+        padding: 15px;
         background-color: white;
         position: scroll;
         height: 55px;
     }
     .nav img{
         position: relative;
-        height: 150px;
+        height: 70px;
         width: 100px;
-        margin-top: -15px;
-        margin-left: -35px;
+        margin-top: -25px;
+        margin-left: -20px;
     }
     .nav a{
         color: black;
-        margin: 15px;
+        margin: 3px;
         float: right;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: normal;
         text-decoration: none;
     }
@@ -647,13 +549,13 @@ and (min-width : 667px)
     }
     .trans p{
         color: white;
-        font-size: 11px;
+        font-size: 11.6px;
         background-color: rgba(0, 0, 0, 0.5);
         width: 80%;
         position: relative;
-        margin-top: 140px;
+        margin-top: 122px;
         padding: 2px;
-    }
+    } 
     .container{
         margin: 10px;
     }
@@ -708,11 +610,11 @@ and (min-width : 667px)
         font-size: 10px;
     }
     .about{
-        height: 120px;
+        height: 230px;
     }
     .history
     {
-        height: 120px;
+        height: 280px;
     }
     .about h3,
     .history h3,
@@ -729,95 +631,6 @@ and (min-width : 667px)
         font-size: 10px;
         font-weight: normal;
     }
-        .footer{
-            bottom: 0;
-            margin: 0;
-            width: 100%;
-            padding: 5px;
-            background-color: #37B5FF;
-            position: scroll;
-        }
-        .footer img{
-            position: relative;
-            height: 50px;
-            width: 100px;
-            margin-left: -10px;
-        }
-        .footer a{
-            color: white;
-            margin: 10px;
-            float: right;
-            font-size: 7px;
-            font-weight: normal;
-            text-decoration: none;
-        }
-        .footer p1{
-            float: right;
-            color: white;
-            width: 50px;
-            text-align: justify;
-            margin-top: 20px;
-            margin-right: -50px;
-            font-size: 5.5px;
-            font-weight: normal;
-        }
-        .footer p2{
-            text-align: center;
-            color: white;
-            font-size: 6px;
-            font-weight: normal;
-        }
-        .footer p3{
-            text-align: center;
-            color: white;
-            font-size: 5.5px;
-            font-weight: normal;
-        }
-    }  
-    /*iphone 6/7/8 plus*/
-    @media screen 
-and (min-width : 414px) 
-   {
-    .nav{
-        top: 0;
-        margin: 0;
-        width: 100%;
-        padding: 15px;
-        background-color: white;
-        position: scroll;
-        height: 55px;
-    }
-    .nav img{
-        position: relative;
-        height: 70px;
-        width: 100px;
-        margin-top: -25px;
-        margin-left: -20px;
-    }
-    .nav a{
-        color: black;
-        margin: 3px;
-        float: right;
-        font-size: 10px;
-        font-weight: normal;
-        text-decoration: none;
-    }
-    .hed{
-        background-image: url("../images/jpeg.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 220px;
-    }
-    .trans p{
-        color: white;
-        font-size: 11.6px;
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 80%;
-        position: relative;
-        margin-top: 122px;
-        padding: 2px;
-    } 
     .footer{
         bottom: 0;
         margin: 0;
@@ -863,167 +676,10 @@ and (min-width : 414px)
         font-weight: normal;
     }  
    }
-   @media screen 
-  and (min-width: 576px) 
-   {
-   
-    .nav{
-        top: 0;
-        margin: 0;
-        width: 100%;
-        padding: 10px;
-        background-color: white;
-        position: scroll;
-        height: 70px;
-    }
-    .nav img{
-        position: relative;
-        height: 70px;
-        width: 130px;
-        margin-top: -10px;
-        margin-left: -40px;
-    }
-    .nav a{
-        color: black;
-        margin: 20px;
-        float: right;
-        font-size: 10px;
-        font-weight: normal;
-        text-decoration: none;
-    }
-    .hed{
-        background-image: url("../images/jpeg.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 250px;
-    }
-    .trans p{
-        color: white;
-        font-size: small;
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 80%;
-        position: relative;
-        margin-top: 160px;
-        padding: 2px;
-    }
-    .container{
-        margin: 10px;
-    }
-    .button{
-        padding: 2px;
-        width: 100px;
-        background-color: #37B5FF;
-        outline: none;
-    }
-    .button h5{
-        text-align: center;
-        color: white;
-        font-size: 15px;
-    }
-    .but p{
-        color: #37B5FF;
-        text-align: center;
-        font-size: 10px;
-    }
-    /*column-left*/
-    .column-left{
-        float: left;
-        width: 50%;
-        margin-left: -10px;
-        margin-top: 20px;
-    }
-    .column-left h4{
-        color: #37B5FF;
-        font-size: 15px;  
-    }
-    .column-left p{
-        color: black;
-        font-size: 10px;
-    }
-    /*column-right*/
-    .column-right{
-        float: right;
-        width: 50%;
-        margin-right: -20px;
-        margin-top: 20px;
-    }
-    .column-right h4{
-        color: #37B5FF;
-        font-size: 15px;  
-    }
-    .column-right p{
-        color: black;
-        font-size: 10px;
-    }
-    .row p{
-        font-weight: normal;
-        font-size: 10px;
-    }
-    .about{
-        height: 80px;
-    }
-    .history
-    {
-       height: 50px;
-    }
-    .about h3,
-    .history h3,
-    .milestone h3,
-    .orphan h3{
-        text-align: center;
-        color: #37B5FF;
-        font-size: 10px;
-    }
-    .about p,
-    .history p,
-    .milestone p,
-    .orphan p{
-        font-size: 10px;
-        font-weight: normal;
-    }
-        .footer{
-            bottom: 0;
-            margin: 0;
-            width: 100%;
-            padding: 5px;
-            background-color: #37B5FF;
-            position: scroll;
-        }
-        .footer img{
-            position: relative;
-            height: 80px;
-            width: 130px;
-            margin-left: -15px;
-        }
-        .footer a{
-            color: white;
-            margin: 15px;
-            float: right;
-            font-size: 10px;
-            font-weight: normal;
-            text-decoration: none;
-        }
-        .footer p1{
-            float: right;
-            color: white;
-            width: 70px;
-            text-align: justify;
-            margin-top: 30px;
-            margin-right: -80px;
-            font-size: 8px;
-            font-weight: normal;
-        }
-        .footer p2{
-            text-align: center;
-            color: white;
-            font-size: 6px;
-            font-weight: normal;
-        }
-        .footer p3{
-            text-align: center;
-            color: white;
-            font-size: 5px;
-            font-weight: normal;
-        }
-    }
+  /* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
+}
