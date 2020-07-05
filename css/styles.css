@@ -448,7 +448,7 @@ html{
 }
 /* IPHONE 6.7.8 */
 @media screen 
-and (max-width : 375px) 
+and (min-width : 375px) 
    {
     .nav{
         top: 0;
@@ -461,14 +461,14 @@ and (max-width : 375px)
     }
     .nav img{
         position: relative;
-        height: 40px;
-        width: 80px;
-        margin-top: -30px;
-        margin-left: -25px;
+        height: 50px;
+        width: 100px;
+        margin-top: -15px;
+        margin-left: -35px;
     }
     .nav a{
         color: black;
-        margin: 3px;
+        margin: 5px;
         float: right;
         font-size: 7px;
         font-weight: normal;
@@ -483,11 +483,11 @@ and (max-width : 375px)
     }
     .trans p{
         color: white;
-        font-size: x-small;
+        font-size: 11px;
         background-color: rgba(0, 0, 0, 0.5);
         width: 80%;
         position: relative;
-        margin-top: 130px;
+        margin-top: 126px;
         padding: 2px;
     }
     .container{
@@ -544,11 +544,11 @@ and (max-width : 375px)
         font-size: 10px;
     }
     .about{
-        margin-bottom: 50px;
+        height: 120px;
     }
     .history
     {
-        margin-bottom: 110px;
+        height: 120px;
     }
     .about h3,
     .history h3,
@@ -575,13 +575,13 @@ and (max-width : 375px)
         }
         .footer img{
             position: relative;
-            height: 70px;
-            width: 90px;
-            margin-left: -5px;
+            height: 50px;
+            width: 100px;
+            margin-left: -10px;
         }
         .footer a{
             color: white;
-            margin: 6px;
+            margin: 10px;
             float: right;
             font-size: 7px;
             font-weight: normal;
@@ -610,9 +610,173 @@ and (max-width : 375px)
             font-weight: normal;
         }
     } 
+    /*iphone 6/7/8 landscape*/
+    @media screen 
+and (min-width : 667px) 
+   {
+    .nav{
+        top: 0;
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        position: scroll;
+        height: 55px;
+    }
+    .nav img{
+        position: relative;
+        height: 50px;
+        width: 100px;
+        margin-top: -15px;
+        margin-left: -35px;
+    }
+    .nav a{
+        color: black;
+        margin: 15px;
+        float: right;
+        font-size: 15px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .hed{
+        background-image: url("../images/jpeg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 220px;
+    }
+    .trans p{
+        color: white;
+        font-size: 11px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 126px;
+        padding: 2px;
+    }
+    .container{
+        margin: 10px;
+    }
+    .button{
+        padding: 2px;
+        width: 100px;
+        background-color: #37B5FF;
+        outline: none;
+    }
+    .button h5{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .but p{
+        color: #37B5FF;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*column-left*/
+    .column-left{
+        float: left;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .column-left h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-left p{
+        color: black;
+        font-size: 10px;
+    }
+    /*column-right*/
+    .column-right{
+        float: right;
+        width: 50%;
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    .column-right h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-right p{
+        color: black;
+        font-size: 10px;
+    }
+    .row p{
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .about{
+        height: 120px;
+    }
+    .history
+    {
+        height: 120px;
+    }
+    .about h3,
+    .history h3,
+    .milestone h3,
+    .orphan h3{
+        text-align: center;
+        color: #37B5FF;
+        font-size: 10px;
+    }
+    .about p,
+    .history p,
+    .milestone p,
+    .orphan p{
+        font-size: 10px;
+        font-weight: normal;
+    }
+        .footer{
+            bottom: 0;
+            margin: 0;
+            width: 100%;
+            padding: 5px;
+            background-color: #37B5FF;
+            position: scroll;
+        }
+        .footer img{
+            position: relative;
+            height: 50px;
+            width: 100px;
+            margin-left: -10px;
+        }
+        .footer a{
+            color: white;
+            margin: 10px;
+            float: right;
+            font-size: 7px;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .footer p1{
+            float: right;
+            color: white;
+            width: 50px;
+            text-align: justify;
+            margin-top: 20px;
+            margin-right: -50px;
+            font-size: 5.5px;
+            font-weight: normal;
+        }
+        .footer p2{
+            text-align: center;
+            color: white;
+            font-size: 6px;
+            font-weight: normal;
+        }
+        .footer p3{
+            text-align: center;
+            color: white;
+            font-size: 5.5px;
+            font-weight: normal;
+        }
+    }  
     /*iphone 6/7/8 plus*/
     @media screen 
-and (max-width : 414px) 
+and (min-width : 414px) 
    {
     .nav{
         top: 0;
@@ -626,7 +790,7 @@ and (max-width : 414px)
     .nav img{
         position: relative;
         height: 70px;
-        width: 90px;
+        width: 100px;
         margin-top: -25px;
         margin-left: -20px;
     }
@@ -634,7 +798,7 @@ and (max-width : 414px)
         color: black;
         margin: 3px;
         float: right;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: normal;
         text-decoration: none;
     }
@@ -647,11 +811,219 @@ and (max-width : 414px)
     }
     .trans p{
         color: white;
-        font-size: x-small;
+        font-size: 11.6px;
         background-color: rgba(0, 0, 0, 0.5);
         width: 80%;
         position: relative;
-        margin-top: 130px;
+        margin-top: 122px;
         padding: 2px;
-    }   
+    } 
+    .footer{
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+        background-color: #37B5FF;
+        position: scroll;
+    }
+    .footer img{
+        position: relative;
+        height: 60px;
+        width: 120px;
+        margin-left: -4px;
+    }
+    .footer a{
+        color: white;
+        margin: 12px;
+        float: right;
+        font-size: 8px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .footer p1{
+        float: right;
+        color: white;
+        width: 70px;
+        text-align: justify;
+        margin-top: 25px;
+        margin-right: -70px;
+        font-size: 6.5px;
+        font-weight: normal;
+    }
+    .footer p2{
+        text-align: center;
+        color: white;
+        font-size: 6px;
+        font-weight: normal;
+    }
+    .footer p3{
+        text-align: center;
+        color: white;
+        font-size: 5px;
+        font-weight: normal;
+    }  
    }
+   @media screen 
+  and (min-width: 576px) 
+   {
+   
+    .nav{
+        top: 0;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        position: scroll;
+        height: 70px;
+    }
+    .nav img{
+        position: relative;
+        height: 70px;
+        width: 130px;
+        margin-top: -10px;
+        margin-left: -40px;
+    }
+    .nav a{
+        color: black;
+        margin: 20px;
+        float: right;
+        font-size: 10px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .hed{
+        background-image: url("../images/jpeg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+    .trans p{
+        color: white;
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 160px;
+        padding: 2px;
+    }
+    .container{
+        margin: 10px;
+    }
+    .button{
+        padding: 2px;
+        width: 100px;
+        background-color: #37B5FF;
+        outline: none;
+    }
+    .button h5{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .but p{
+        color: #37B5FF;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*column-left*/
+    .column-left{
+        float: left;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .column-left h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-left p{
+        color: black;
+        font-size: 10px;
+    }
+    /*column-right*/
+    .column-right{
+        float: right;
+        width: 50%;
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    .column-right h4{
+        color: #37B5FF;
+        font-size: 15px;  
+    }
+    .column-right p{
+        color: black;
+        font-size: 10px;
+    }
+    .row p{
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .about{
+        height: 80px;
+    }
+    .history
+    {
+       height: 50px;
+    }
+    .about h3,
+    .history h3,
+    .milestone h3,
+    .orphan h3{
+        text-align: center;
+        color: #37B5FF;
+        font-size: 10px;
+    }
+    .about p,
+    .history p,
+    .milestone p,
+    .orphan p{
+        font-size: 10px;
+        font-weight: normal;
+    }
+        .footer{
+            bottom: 0;
+            margin: 0;
+            width: 100%;
+            padding: 5px;
+            background-color: #37B5FF;
+            position: scroll;
+        }
+        .footer img{
+            position: relative;
+            height: 80px;
+            width: 130px;
+            margin-left: -15px;
+        }
+        .footer a{
+            color: white;
+            margin: 15px;
+            float: right;
+            font-size: 10px;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .footer p1{
+            float: right;
+            color: white;
+            width: 70px;
+            text-align: justify;
+            margin-top: 30px;
+            margin-right: -80px;
+            font-size: 8px;
+            font-weight: normal;
+        }
+        .footer p2{
+            text-align: center;
+            color: white;
+            font-size: 6px;
+            font-weight: normal;
+        }
+        .footer p3{
+            text-align: center;
+            color: white;
+            font-size: 5px;
+            font-weight: normal;
+        }
+    }
