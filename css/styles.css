@@ -34,7 +34,7 @@ html{
     text-decoration: none;
 }
 .hed{
-    background-image: url("../images/disc.jpg");
+    background-image: url("../images/jpeg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ html{
         text-decoration: none;
     }
     .hed{
-        background-image: url("../images/jpeg.JPG");
+        background-image: url("../images/jpeg.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -475,7 +475,7 @@ and (max-width : 375px)
         text-decoration: none;
     }
     .hed{
-        background-image: url("../images/jpeg.JPG");
+        background-image: url("../images/jpeg.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -639,7 +639,7 @@ and (max-width : 414px)
         text-decoration: none;
     }
     .hed{
-        background-image: url("../images/jpeg.JPG");
+        background-image: url("../images/jpeg.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
