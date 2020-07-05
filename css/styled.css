@@ -102,6 +102,10 @@ a {
           text-align: center;
           font-weight: normal;
           line-height: 22px;
+          -webkit-transition: all 2s ease-in-out;
+           transition: all 2s ease-in-out;
+         -webkit-transition: 0.5s;
+        transition: 0.5s;
         }
     #next,
     #prev {
@@ -201,6 +205,8 @@ a {
                     font-weight: normal;
                     line-height: 14px;
                     margin-left: 20px;
+                    -webkit-transition: all 2s ease-in-out;
+                    transition: all 2s ease-in-out;
                   }
                   #issues li.selected img {
                     -webkit-transform: scale(1.05,1.05);
@@ -299,6 +305,8 @@ a {
                     text-align: center;
                     font-weight: normal;
                     line-height: 10px;
+                    -webkit-transition: all 2s ease-in-out;
+                    transition: all 2s ease-in-out;
                   }
                   #issues li.selected img {
                     -webkit-transform: scale(1.05,1.05);
@@ -393,6 +401,8 @@ a {
                   text-align: center;
                   font-weight: normal;
                   line-height: 10px;
+                  -webkit-transition: all 2s ease-in-out;
+                    transition: all 2s ease-in-out;
                 }
                 #next,
                 #prev {
