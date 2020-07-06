@@ -31,7 +31,7 @@ a {
     margin-bottom: 20px;
   }
   #timeline {
-    width: 800px;
+    width: 850px;
     height: 400px;
     overflow: hidden;
     margin: 60px auto;
@@ -61,7 +61,7 @@ a {
         }
     
     #issues {
-      width: 800px;
+      width: 600px;
       height: 250px;
       overflow: hidden;
     } 
@@ -98,7 +98,7 @@ a {
         #issues li p {
           color: #fff;
           font-size: 18px;
-          text-align: center;
+          text-align: justify;
           font-weight: normal;
           line-height: 22px;
           -webkit-transition: all 2s ease-in-out;
