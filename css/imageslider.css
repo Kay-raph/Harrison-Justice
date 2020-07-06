@@ -96,13 +96,13 @@
 }
 .ec .ec__nav--next
 {
-    transform:rotate(-135deg);
-    left:-2em;
+    transform:rotate(45deg);
+    left:95.45em;
 }
 .ec .ec__nav--prev
 {
-    transform:rotate(45deg);
-    right:-2em;
+  transform:rotate(-135deg);
+  left:-2em; 
 }
    /* IPHONE 5/5c and android */
    @media only screen 
@@ -153,6 +153,16 @@
     width:22px;
     height:22px;
     cursor:pointer;
+}
+.ec .ec__nav--next
+{
+    transform:rotate(45deg);
+    left:26.55em;
+}
+.ec .ec__nav--prev
+{
+  transform:rotate(-135deg);
+  left:-2em; 
 }
 }
 
@@ -205,6 +215,16 @@
     height:22px;
     cursor:pointer;
  }
+ .ec .ec__nav--next
+{
+    transform:rotate(45deg);
+    left:31.5em;
+}
+.ec .ec__nav--prev
+{
+  transform:rotate(-135deg);
+  left:-2em; 
+}
 }
    /*iphone 6/7/8 plus*/
    @media only screen 
@@ -255,6 +275,16 @@
       width:22px;
       height:22px;
       cursor:pointer;
+    }
+    .ec .ec__nav--next
+    {
+        transform:rotate(45deg);
+        left:35em;
+    }
+    .ec .ec__nav--prev
+    {
+      transform:rotate(-135deg);
+      left:-2em; 
     }
     }
     /* ----------- Retina Screens ----------- */
