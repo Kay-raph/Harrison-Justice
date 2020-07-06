@@ -189,11 +189,13 @@ a {
                     height: 180px;
                     list-style: none;
                     float: left;
+                    align-content: center;
                   }
                   #issues li h6 {
                     color: #000000;
                     font-size: 18px;
-                    margin: 5px 0;
+                    margin: 4px 0;
+                    font-weight: bold;  
                   }
                   #issues li p {
                     font-size: 8px;
