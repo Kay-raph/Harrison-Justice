@@ -54,9 +54,7 @@ font-weight: 100;
     margin-top: 512px;
     padding: 10px;
 }
-.trans{
-   
-}
+
 .container{
     margin: 30px;
 }
@@ -74,9 +72,11 @@ font-weight: 100;
     color: white;
     font-size: 30px;
     text-decoration: none;
+    transition: all .8s;
 }
 .button h5:hover{
-    opacity: 0.6;
+    color: black;
+    transition: all .8s;
 }
 .but p{
     color: #37B5FF;
