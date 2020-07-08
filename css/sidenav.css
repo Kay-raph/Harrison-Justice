@@ -14,7 +14,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #37b5ff;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -31,7 +31,7 @@
 }
 
 .sidenav a:hover {
-    color: #37b5ff;
+    color: #000;
 }
 
 .sidenav .closebtn {
@@ -66,7 +66,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: #37b5ff;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -114,7 +114,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: #37b5ff;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -162,7 +162,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: #37b5ff;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;

@@ -9,7 +9,7 @@
       width: 280px;
       height: 300px;
       font-size: 13px;
-      color: white;
+      color: #000;
       float: right;
       margin-top: -430px;
   }
@@ -23,7 +23,7 @@
   
   .example-box {
       width: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: #ffffff;
     border-radius: 20px;
   }
  
@@ -121,7 +121,7 @@
           width: 130px;
           height: 530px;
           font-size: 9px;
-          color: white;
+          color: black;
           padding: 10px;
           margin: auto;
           margin-top: -300px;
@@ -183,7 +183,7 @@
           width: 160px;
           height: 350px;
           font-size: 8px;
-          color: white;
+          color: black;
           padding: 10px;
           margin: auto;
           margin-top: -200px;
@@ -243,7 +243,7 @@
             width: 180px;
             height:180px;
             font-size: 9px;
-            color: white;
+            color: black;
             padding: 10px;
             margin: auto;
             margin-top: -350px;
