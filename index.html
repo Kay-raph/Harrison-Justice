@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/imageslider.css">
     <link href="css\styling.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css\styled.css" type="text/css" media="screen">
+    <link href="css\sidenav.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="icons/love5.png">
     <title>Harrison & Justice</title>
 </head>
@@ -33,6 +34,17 @@
   });
 </script>
 <body>
+  <div class="sdnav">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#home">HOME </a>
+    <a href="#contact">CONTACT US</a>
+        <a href="#stories">ORPHAN STORIES</a>
+        <a href="#history">OUR HISTORY</a>
+        <a href="#about">ABOUT US </a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <img id="home" src="icons/love5.png"></span>  
+</div>
     <center>
     <div class="nav">
         <img src="icons/love5.png" id="index">
@@ -415,6 +427,7 @@ business activities to generate income.
   <script src="slider-overflow.js-master\main.js"></script>
   <script src="js\jquery.timelinr-0.9.7.js"></script>
   <script src="script.js"></script>
+  <script src="js\sidenav.js"></script>
   <script>
     new ElderCarousel('.carousel-single-item', { items: 1, infinite: false })
 

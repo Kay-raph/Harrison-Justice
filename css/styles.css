@@ -20,12 +20,16 @@ font-weight: 100;
     position: relative;
     height: 180px;
     width: 250px;
-    margin-top: -30px;
-    margin-left: -20px;
+    margin-top: -35px;
+    margin-left: -10px;
+    transition: all 0.5s;
+}
+.nav img:hover{
+  opacity: .7;
 }
 .nav a{
     color: black;
-    margin: 50px;
+    margin: 40px;
     float: right;
     font-size: 25px;
     font-weight: bold;
@@ -154,6 +158,9 @@ font-weight: 100;
     width: 300px;
     margin-left: -20px;
 }
+.footer img:hover{
+   opacity: .8;
+}
 .footer a{
     color: white;
     margin: 40px;
@@ -161,6 +168,7 @@ font-weight: 100;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    transition: all .35s ease;
 }
 .footer a:hover{
     color: black;
@@ -191,6 +199,7 @@ font-weight: 100;
   and (-webkit-min-device-pixel-ratio: 2) 
    {
     .nav{
+        display: none;
         top: 0;
         margin: 0;
         width: 100%;
@@ -328,7 +337,7 @@ font-weight: 100;
             color: white;
             margin: 5px;
             float: right;
-            font-size: 7px;
+            font-size: 6px;
             font-weight: normal;
             text-decoration: none;
         }
@@ -362,6 +371,7 @@ font-weight: 100;
   and (-webkit-min-device-pixel-ratio: 2) 
    {
     .nav{
+        display: none;
         top: 0;
         margin: 0;
         width: 100%;
@@ -479,7 +489,6 @@ font-weight: 100;
     }
         .footer{
             bottom: 0;
-            margin: 0;
             width: 100%;
             padding: 5px;
             background-color: #37B5FF;
@@ -489,11 +498,11 @@ font-weight: 100;
             position: relative;
             height: 50px;
             width: 100px;
-            margin-left: -10px;
+            margin-left: -7px;
         }
         .footer a{
             color: white;
-            margin: 10px;
+            margin: 8px;
             float: right;
             font-size: 7px;
             font-weight: normal;
@@ -505,8 +514,8 @@ font-weight: 100;
             width: 50px;
             text-align: justify;
             margin-top: 20px;
-            margin-right: -50px;
-            font-size: 5.5px;
+            margin-right: -55px;
+            font-size: 5px;
             font-weight: normal;
         }
         .footer p2{
@@ -529,6 +538,7 @@ font-weight: 100;
     and (-webkit-min-device-pixel-ratio: 3) 
    {
     .nav{
+        display: none;
         top: 0;
         margin: 0;
         width: 100%;
@@ -566,7 +576,7 @@ font-weight: 100;
         background-color: rgba(0, 0, 0, 0.5);
         width: 80%;
         position: relative;
-        margin-top: 122px;
+        margin-top: 138px;
         padding: 2px;
     } 
     .container{
@@ -660,7 +670,7 @@ font-weight: 100;
     }
     .footer a{
         color: white;
-        margin: 12px;
+        margin: 8px;
         float: right;
         font-size: 8px;
         font-weight: normal;
@@ -673,7 +683,7 @@ font-weight: 100;
         text-align: justify;
         margin-top: 25px;
         margin-right: -70px;
-        font-size: 6.5px;
+        font-size: 6px;
         font-weight: normal;
     }
     .footer p2{
