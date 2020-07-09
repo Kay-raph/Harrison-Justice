@@ -74,14 +74,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     
     .sidenav a {
-        padding: 18px 18px 18px 32px;
+        padding: 18px 18px 18px 42px;
         text-decoration: none;
         font-size: 19px;
         float: left;
         color: #ffffff;
         display: block;
         transition: 0.5s;
-        margin: 10px 0;
+        margin: 15px 0;
         overflow: hidden;
     }
     .sidenav .closebtn {
@@ -122,14 +122,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     
     .sidenav a {
-        padding: 18px 18px 18px 32px;
+        padding: 18px 18px 18px 42px;
         text-decoration: none;
         font-size: 19px;
         float: left;
         color: #ffffff;
         display: block;
         transition: 0.5s;
-        margin: 10px 0;
+        margin: 15px 0;
         overflow: hidden;
     }
     .sidenav .closebtn {
@@ -170,7 +170,152 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     
     .sidenav a {
-        padding: 18px 18px 18px 32px;
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 35px;
+        margin-left: 20px;
+    }
+}
+ /*ipad*/
+ @media only screen 
+ and (min-device-width: 768px) 
+ and (max-device-width: 1024px) 
+ and (-webkit-min-device-pixel-ratio: 2)  
+     {
+        .sdnav{
+            display: block;
+        }
+        .sdnav img{
+            margin-left: 550px;
+            height: 80px;
+            width: 160px;
+            margin-top: -10px;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #37b5ff;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            display: block;
+        }
+        
+        .sidenav a {
+            padding: 18px 18px 18px 42px;
+            text-decoration: none;
+            font-size: 19px;
+            float: left;
+            color: #ffffff;
+            display: block;
+            transition: 0.5s;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 35px;
+            margin-left: 20px;
+        }
+    }
+    /*ipad landscape*/
+ @media only screen 
+ and (max-device-width: 1024px)  
+ and (orientation: landscape) 
+ and (-webkit-min-device-pixel-ratio: 1)
+     {
+        .sdnav{
+            display: block;
+        }
+        .sdnav img{
+            margin-left: 800px;
+            height: 80px;
+            width: 160px;
+            margin-top: -10px;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #37b5ff;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            display: block;
+        }
+        
+        .sidenav a {
+            padding: 18px 18px 18px 42px;
+            text-decoration: none;
+            font-size: 19px;
+            float: left;
+            color: #ffffff;
+            display: block;
+            transition: 0.5s;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 35px;
+            margin-left: 20px;
+        }
+    }
+   /* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .sdnav{
+        display: block;
+    }
+    .sdnav img{
+        margin-left: 800px;
+        height: 80px;
+        width: 160px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
         text-decoration: none;
         font-size: 19px;
         float: left;

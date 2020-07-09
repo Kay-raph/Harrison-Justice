@@ -679,10 +679,10 @@ font-weight: 100;
     .footer p1{
         float: right;
         color: white;
-        width: 70px;
+        width: 60px;
         text-align: justify;
         margin-top: 25px;
-        margin-right: -70px;
+        margin-right: -55px;
         font-size: 6px;
         font-weight: normal;
     }
@@ -699,6 +699,512 @@ font-weight: 100;
         font-weight: normal;
     }  
    }
+        /*ipad*/
+        @media only screen 
+        and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+        and (-webkit-min-device-pixel-ratio: 2)  
+            {
+                .nav{
+                    display: none;
+                    top: 0;
+                    margin: 0;
+                    width: 100%;
+                    padding: 15px;
+                    background-color: white;
+                    position: scroll;
+                    height: 55px;
+                }
+                .nav img{
+                    position: relative;
+                    height: 70px;
+                    width: 100px;
+                    margin-top: -25px;
+                    margin-left: -20px;
+                }
+                .nav a{
+                    color: black;
+                    margin: 3px;
+                    float: right;
+                    font-size: 10px;
+                    font-weight: normal;
+                    text-decoration: none;
+                }
+              
+                .hed{
+                    background-image: url("../images/jpeg.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 350px;
+                }
+                .trans p{
+                    color: white;
+                    font-size: 18px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    width: 80%;
+                    position: relative;
+                    margin-top: 233px;
+                    padding: 2px;
+                } 
+                .container{
+                    margin: 10px;
+                }
+                .button{
+                    padding: 2px;
+                    width: 100px;
+                    background-color: #37B5FF;
+                    outline: none;
+                }
+                .button h5{
+                    text-align: center;
+                    color: white;
+                    font-size: 15px;
+                }
+                .but p{
+                    color: #37B5FF;
+                    text-align: center;
+                    font-size: 10px;
+                }
+                /*column-left*/
+                .column-left{
+                    float: left;
+                    width: 50%;
+                    margin-left: -10px;
+                    margin-top: 20px;
+                }
+                .column-left h4{
+                    color: #37B5FF;
+                    font-size: 15px;  
+                }
+                .column-left p{
+                    color: black;
+                    font-size: 10px;
+                }
+                /*column-right*/
+                .column-right{
+                    float: right;
+                    width: 50%;
+                    margin-right: -20px;
+                    margin-top: 20px;
+                }
+                .column-right h4{
+                    color: #37B5FF;
+                    font-size: 15px;  
+                }
+                .column-right p{
+                    color: black;
+                    font-size: 10px;
+                }
+                .row p{
+                    font-weight: normal;
+                    font-size: 10px;
+                }
+                .about{
+                    height: 180px;
+                }
+                .history
+                {
+                    height: 150px;
+                }
+                .about h3,
+                .history h3,
+                .milestone h3,
+                .orphan h3{
+                    text-align: center;
+                    color: #37B5FF;
+                    font-size: 15px;
+                }
+                .about p,
+                .history p,
+                .milestone p,
+                .orphan p{
+                    font-size: 10px;
+                    font-weight: normal;
+                }
+                .footer{
+                    bottom: 0;
+                    margin: 0;
+                    width: 100%;
+                    padding: 5px;
+                    background-color: #37B5FF;
+                    position: scroll;
+                }
+                .footer img{
+                    position: relative;
+                    height: 90px;
+                    width: 180px;
+                    margin-left: -24px;
+                }
+                .footer a{
+                    color: white;
+                    margin: 18px;
+                    float: right;
+                    font-size: 15px;
+                    font-weight: normal;
+                    text-decoration: none;
+                }
+                .footer p1{
+                    float: right;
+                    color: white;
+                    width: 100px;
+                    text-align: justify;
+                    margin-top: 45px;
+                    margin-right: -100px;
+                    font-size: 10px;
+                    font-weight: normal;
+                }
+                .footer p2{
+                    text-align: center;
+                    color: white;
+                    font-size: 10px;
+                    font-weight: normal;
+                }
+                .footer p3{
+                    text-align: center;
+                    color: white;
+                    font-size: 8px;
+                    font-weight: normal;
+                }  
+               }
+                  /*ipad landscape*/
+ @media only screen 
+ and (max-device-width: 1024px)  
+ and (orientation: landscape) 
+ and (-webkit-min-device-pixel-ratio: 1)
+     {
+        .nav{
+            display: none;
+            top: 0;
+            margin: 0;
+            width: 100%;
+            padding: 15px;
+            background-color: white;
+            position: scroll;
+            height: 55px;
+        }
+        .nav img{
+            position: relative;
+            height: 70px;
+            width: 100px;
+            margin-top: -25px;
+            margin-left: -20px;
+        }
+        .nav a{
+            color: black;
+            margin: 3px;
+            float: right;
+            font-size: 10px;
+            font-weight: normal;
+            text-decoration: none;
+        }
+      
+        .hed{
+            background-image: url("../images/jpeg.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 350px;
+        }
+        .trans p{
+            color: white;
+            font-size: 18px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 80%;
+            position: relative;
+            margin-top: 253px;
+            padding: 2px;
+        } 
+        .container{
+            margin: 10px;
+        }
+        .button{
+            padding: 2px;
+            width: 200px;
+            background-color: #37B5FF;
+            outline: none;
+        }
+        .button h5{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        .but p{
+            color: #37B5FF;
+            text-align: center;
+            font-size: 12px;
+        }
+        /*column-left*/
+        .column-left{
+            float: left;
+            width: 50%;
+            margin-left: -10px;
+            margin-top: 20px;
+        }
+        .column-left h4{
+            color: #37B5FF;
+            font-size: 20px;  
+        }
+        .column-left p{
+            color: black;
+            font-size: 10px;
+        }
+        /*column-right*/
+        .column-right{
+            float: right;
+            width: 50%;
+            margin-right: -20px;
+            margin-top: 20px;
+        }
+        .column-right h4{
+            color: #37B5FF;
+            font-size: 20px;  
+        }
+        .column-right p{
+            color: black;
+            font-size: 12px;
+        }
+        .row p{
+            font-weight: normal;
+            font-size: 12px;
+        }
+        .about{
+            height: 180px;
+        }
+        .history
+        {
+            height: 150px;
+        }
+        .about h3,
+        .history h3,
+        .milestone h3,
+        .orphan h3{
+            text-align: center;
+            color: #37B5FF;
+            font-size: 20px;
+        }
+        .about p,
+        .history p,
+        .milestone p,
+        .orphan p{
+            font-size: 12px;
+            font-weight: normal;
+        }
+        .footer{
+            bottom: 0;
+            margin: 0;
+            width: 100%;
+            padding: 5px;
+            background-color: #37B5FF;
+            position: scroll;
+        }
+        .footer img{
+            position: relative;
+            height: 100px;
+            width: 200px;
+            margin-left: -10px;
+        }
+        .footer a{
+            color: white;
+            margin: 20px;
+            float: right;
+            font-size: 20px;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .footer p1{
+            float: right;
+            color: white;
+            width: 120px;
+            text-align: justify;
+            margin-top: 45px;
+            margin-right: -130px;
+            font-size: 12px;
+            font-weight: normal;
+        }
+        .footer p2{
+            text-align: center;
+            color: white;
+            font-size: 11px;
+            font-weight: normal;
+        }
+        .footer p3{
+            text-align: center;
+            color: white;
+            font-size: 10px;
+            font-weight: normal;
+        }  
+       }
+        /* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .nav{
+        display: none;
+        top: 0;
+        margin: 0;
+        width: 100%;
+        padding: 15px;
+        background-color: white;
+        position: scroll;
+        height: 55px;
+    }
+    .nav img{
+        position: relative;
+        height: 70px;
+        width: 100px;
+        margin-top: -25px;
+        margin-left: -20px;
+    }
+    .nav a{
+        color: black;
+        margin: 3px;
+        float: right;
+        font-size: 10px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+  
+    .hed{
+        background-image: url("../images/jpeg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+    }
+    .trans p{
+        color: white;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+        position: relative;
+        margin-top: 253px;
+        padding: 2px;
+    } 
+    .container{
+        margin: 10px;
+    }
+    .button{
+        padding: 2px;
+        width: 200px;
+        background-color: #37B5FF;
+        outline: none;
+    }
+    .button h5{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .but p{
+        color: #37B5FF;
+        text-align: center;
+        font-size: 12px;
+    }
+    /*column-left*/
+    .column-left{
+        float: left;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .column-left h4{
+        color: #37B5FF;
+        font-size: 20px;  
+    }
+    .column-left p{
+        color: black;
+        font-size: 10px;
+    }
+    /*column-right*/
+    .column-right{
+        float: right;
+        width: 50%;
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    .column-right h4{
+        color: #37B5FF;
+        font-size: 20px;  
+    }
+    .column-right p{
+        color: black;
+        font-size: 12px;
+    }
+    .row p{
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .about{
+        height: 180px;
+    }
+    .history
+    {
+        height: 150px;
+    }
+    .about h3,
+    .history h3,
+    .milestone h3,
+    .orphan h3{
+        text-align: center;
+        color: #37B5FF;
+        font-size: 20px;
+    }
+    .about p,
+    .history p,
+    .milestone p,
+    .orphan p{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .footer{
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+        background-color: #37B5FF;
+        position: scroll;
+    }
+    .footer img{
+        position: relative;
+        height: 100px;
+        width: 200px;
+        margin-left: -10px;
+    }
+    .footer a{
+        color: white;
+        margin: 20px;
+        float: right;
+        font-size: 20px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .footer p1{
+        float: right;
+        color: white;
+        width: 120px;
+        text-align: justify;
+        margin-top: 45px;
+        margin-right: -130px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .footer p2{
+        text-align: center;
+        color: white;
+        font-size: 11px;
+        font-weight: normal;
+    }
+    .footer p3{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        font-weight: normal;
+    }  
+   }
+            
   /* ----------- Retina Screens ----------- */
 @media screen 
 and (min-device-width: 1200px) 
