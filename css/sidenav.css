@@ -333,3 +333,345 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-left: 20px;
     }
 }
+/*android landscape*/
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .sdnav{
+        display: block;
+    }
+    .sdnav img{
+        margin-left: 180px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+  .sdnav{
+        display: block;
+    }
+    .sdnav img{
+        margin-left: 420px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 52px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 5px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+
+/*iphone 5/5s/SE landscape*/
+@media only screen and (min-width: 568px) and (max-width: 767.98px) {
+    .sdnav{
+        display: block;
+    }
+    .sdnav img{
+        margin-left: 180px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+  .sdnav{
+        display: block;
+    }
+    .sdnav img{
+        margin-left: 420px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 52px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 5px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+/*galaxy s5 landscape*/
+@media only screen and (min-width: 640px) and (max-width: 800px) {
+    .sdnav img{
+        margin-left: 500px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+/*iphone 6/7/8 landscape*/
+@media only screen and (min-width: 667px) and (max-width: 767.98px) {
+    .sdnav{
+        display: block;
+    }
+    .sdnav img{
+        margin-left: 520px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+/*iphone 6/7/8plus landscape*/
+@media only screen and (min-width: 736px) and (max-width: 767.98px) {
+    .sdnav img{
+        margin-left: 580px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+/*iphone X landscape*/
+@media only screen and (min-width: 812px) and (max-width: 900px) {
+    .sdnav{
+        
+    }
+    .sdnav img{
+        margin-left: 650px;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #37b5ff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    .sidenav a {
+        padding: 18px 18px 18px 42px;
+        text-decoration: none;
+        font-size: 19px;
+        float: left;
+        color: #ffffff;
+        display: block;
+        transition: 0.5s;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+  
+}
